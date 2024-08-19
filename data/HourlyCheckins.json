@@ -1,0 +1,42 @@
+{
+  "RequestItems": {
+    "HourlyCheckins-slojuuuyorf2phvzhigvhhdtve-dev": [
+      {
+        "PutRequest": {
+          "Item": {
+            "checkinID": {"S": "CHECKIN-1"},
+            "projectID": {"S": "JOB-1"},
+            "checkinTimeActual": {"S": "2024-04-22T09:00:00Z"},
+            "equipmentCheck": {"S": "All equipment operational"},
+            "employeeCheck": {"S": "All crew present and accounted for"},
+            "customerCheck": {"S": "No issues reported"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "checkinID": {"S": "CHECKIN-2"},
+            "projectID": {"S": "JOB-1"},
+            "checkinTimeActual": {"S": "2024-04-22T10:00:00Z"},
+            "equipmentCheck": {"S": "Truck tire low air pressure"},
+            "employeeCheck": {"S": "All crew present"},
+            "customerCheck": {"S": "Traffic backup reported"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "checkinID": {"S": "CHECKIN-3"},
+            "projectID": {"S": "JOB-1"},
+            "checkinTimeActual": {"S": "2024-04-22T11:05:00Z"},
+            "equipmentCheck": {"S": "Truck tire low air pressure"},
+            "employeeCheck": {"S": "All crew present"},
+            "customerCheck": {"S": "Traffic backup reported"}
+          }
+        }
+      }
+    ]
+  }
+}

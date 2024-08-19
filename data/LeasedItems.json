@@ -1,0 +1,108 @@
+{
+  "RequestItems": {
+    "LeasedItems-slojuuuyorf2phvzhigvhhdtve-dev": [
+      {
+        "PutRequest": {
+          "Item": {
+            "itemID": {"S": "ITEM-1"},
+            "contractID": {"S": "CONTRACT-1"},
+            "equipmentID": {"S": "EQUIP-7"},
+            "count": {"N": "1"},
+            "description": {"S": "Left Lane Closed Ahead"},
+            "prevBalance": {"N": "0.00"},
+            "newBalance": {"N": "0.00"},
+            "unitRate": {"N": "100.00"},
+            "rentalTime": {"N": "30"},
+            "lesseeAgent": {"S": "John Doe"},
+            "lessorAgent": {"S": "Jane Smith"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "itemID": {"S": "ITEM-2"},
+            "contractID": {"S": "CONTRACT-1"},
+            "equipmentID": {"S": "EQUIP-8"},
+            "count": {"N": "1"},
+            "description": {"S": "Left Lane Reduction"},
+            "prevBalance": {"N": "0.00"},
+            "newBalance": {"N": "0.00"},
+            "unitRate": {"N": "100.00"},
+            "rentalTime": {"N": "30"},
+            "lesseeAgent": {"S": "John Doe"},
+            "lessorAgent": {"S": "Jane Smith"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "itemID": {"S": "ITEM-3"},
+            "contractID": {"S": "CONTRACT-1"},
+            "equipmentID": {"S": "EQUIP-9"},
+            "count": {"N": "1"},
+            "description": {"S": "Left Lane Closed"},
+            "prevBalance": {"N": "0.00"},
+            "newBalance": {"N": "0.00"},
+            "unitRate": {"N": "100.00"},
+            "rentalTime": {"N": "30"},
+            "lesseeAgent": {"S": "John Doe"},
+            "lessorAgent": {"S": "Jane Smith"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "itemID": {"S": "ITEM-4"},
+            "contractID": {"S": "CONTRACT-1"},
+            "equipmentID": {"S": "EQUIP-5"},
+            "count": {"N": "3"},
+            "description": {"S": "Compact Stands"},
+            "prevBalance": {"N": "0.00"},
+            "newBalance": {"N": "0.00"},
+            "unitRate": {"N": "124.00"},
+            "rentalTime": {"N": "30"},
+            "lesseeAgent": {"S": "John Doe"},
+            "lessorAgent": {"S": "Jane Smith"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "itemID": {"S": "ITEM-5"},
+            "contractID": {"S": "CONTRACT-1"},
+            "equipmentID": {"S": "EQUIP-6"},
+            "count": {"N": "75"},
+            "description": {"S": "36 Inch Cones"},
+            "prevBalance": {"N": "0.00"},
+            "newBalance": {"N": "0.00"},
+            "unitRate": {"N": "24.00"},
+            "rentalTime": {"N": "30"},
+            "lesseeAgent": {"S": "John Doe"},
+            "lessorAgent": {"S": "Jane Smith"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "itemID": {"S": "ITEM-6"},
+            "contractID": {"S": "CONTRACT-1"},
+            "equipmentID": {"S": "EQUIP-10"},
+            "count": {"N": "75"},
+            "description": {"S": "Arrow Board"},
+            "prevBalance": {"N": "0.00"},
+            "newBalance": {"N": "0.00"},
+            "unitRate": {"N": "550.00"},
+            "rentalTime": {"N": "30"},
+            "lesseeAgent": {"S": "John Doe"},
+            "lessorAgent": {"S": "Jane Smith"}
+          }
+        }
+      }
+    ]
+  }
+}

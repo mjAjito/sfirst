@@ -1,0 +1,26 @@
+{
+  "RequestItems": {
+    "Contract-slojuuuyorf2phvzhigvhhdtve-dev": [
+      {
+        "PutRequest": {
+          "Item": {
+            "contractID": {"S": "CONTRACT-1"},
+            "projectID": {"S": "JOB-1"},
+            "signedTime": {"S": "2024-04-20T09:00:00Z"},
+            "lastUpdateTime": {"S": "2024-04-20T09:15:00Z"},
+            "office": {"S": "Main Office"},
+            "taxCode": {"S": ""},
+            "minimumBilling": {"N": "100.00"},
+            "sAndE": {"S": ""},
+            "workOrder": {"N": "12345"},
+            "callerName": {"S": "Bob Roberts"},
+            "cod": {"BOOL": false},
+            "charge": {"S": "1234567890"},
+            "poNumber": {"S": "PO12345"},
+            "serviceDate": {"S": "2024-04-22T00:00:00Z"}
+          }
+        }
+      }
+    ]
+  }
+}

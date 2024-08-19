@@ -1,0 +1,11 @@
+{
+  "AppSyncApiName": "sfirst",
+  "DynamoDBBillingMode": "PAY_PER_REQUEST",
+  "DynamoDBEnableServerSideEncryption": false,
+  "AuthCognitoUserPoolId": {
+    "Fn::GetAtt": [
+      "authsfirst739b5899",
+      "Outputs.UserPoolId"
+    ]
+  }
+}

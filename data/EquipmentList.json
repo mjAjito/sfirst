@@ -1,0 +1,149 @@
+{
+  "RequestItems": {
+    "EquipmentList-slojuuuyorf2phvzhigvhhdtve-dev": [
+      {
+        "PutRequest": {
+          "Item": {
+            "equipListID": {"S": "ELIST-1"},
+            "projectID": {"S": "JOB-1"},
+            "equipID": {"S": "EQUIP-7"},
+            "description": {"S": "Left Lane Closed Ahead"},
+            "quantity": {"N": "1"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "equipListID": {"S": "ELIST-2"},
+            "projectID": {"S": "JOB-1"},
+            "equipID": {"S": "EQUIP-8"},
+            "description": {"S": "Left Lane Reduction"},
+            "quantity": {"N": "1"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "equipListID": {"S": "ELIST-3"},
+            "projectID": {"S": "JOB-1"},
+            "equipID": {"S": "EQUIP-9"},
+            "description": {"S": "Left Lane Closed"},
+            "quantity": {"N": "1"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "equipListID": {"S": "ELIST-4"},
+            "projectID": {"S": "JOB-1"},
+            "equipID": {"S": "EQUIP-5"},
+            "description": {"S": "Compact Stands"},
+            "quantity": {"N": "3"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "equipListID": {"S": "ELIST-5"},
+            "projectID": {"S": "JOB-1"},
+            "equipID": {"S": "EQUIP-6"},
+            "description": {"S": "36 Inch Cones"},
+            "quantity": {"N": "75"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "equipListID": {"S": "ELIST-6"},
+            "projectID": {"S": "JOB-1"},
+            "equipID": {"S": "EQUIP-10"},
+            "description": {"S": "Arrow Board"},
+            "quantity": {"N": "1"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "equipListID": {"S": "ELIST-7"},
+            "projectID": {"S": "JOB-2"},
+            "equipID": {"S": "EQUIP-1"},
+            "description": {"S": "Be Prepared to Stop"},
+            "quantity": {"N": "3"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "equipListID": {"S": "ELIST-8"},
+            "projectID": {"S": "JOB-2"},
+            "equipID": {"S": "EQUIP-2"},
+            "description": {"S": "One Lane Road Ahead"},
+            "quantity": {"N": "3"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "equipListID": {"S": "ELIST-9"},
+            "projectID": {"S": "JOB-2"},
+            "equipID": {"S": "EQUIP-3"},
+            "description": {"S": "Flagger Symbol"},
+            "quantity": {"N": "3"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "equipListID": {"S": "ELIST-10"},
+            "projectID": {"S": "JOB-2"},
+            "equipID": {"S": "EQUIP-5"},
+            "description": {"S": "Compact Stands"},
+            "quantity": {"N": "9"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "equipListID": {"S": "ELIST-11"},
+            "projectID": {"S": "JOB-2"},
+            "equipID": {"S": "EQUIP-6"},
+            "description": {"S": "36 Inch Cones"},
+            "quantity": {"N": "75"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "equipListID": {"S": "ELIST-12"},
+            "projectID": {"S": "JOB-2"},
+            "equipID": {"S": "EQUIP-14"},
+            "description": {"S": "2-Way Radios"},
+            "quantity": {"N": "4"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "equipListID": {"S": "ELIST-13"},
+            "projectID": {"S": "JOB-2"},
+            "equipID": {"S": "EQUIP-4"},
+            "description": {"S": "Stop/Slow Paddles"},
+            "quantity": {"N": "3"}
+          }
+        }
+      }
+    ]
+  }
+}

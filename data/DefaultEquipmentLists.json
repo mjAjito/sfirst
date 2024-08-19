@@ -1,0 +1,168 @@
+{
+  "RequestItems": {
+    "DefaultEquipmentLists-slojuuuyorf2phvzhigvhhdtve-dev": [
+      {
+        "PutRequest": {
+          "Item": {
+            "defaultListID": {"S": "LIST-1"},
+            "jobName": {"S": "3-Person Flagging Operation"},
+            "setupTime": {"N": "30"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "defaultListID": {"S": "LIST-2"},
+            "jobName": {"S": "4-Person Flagging Operation"},
+            "setupTime": {"N": "30"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "defaultListID": {"S": "LIST-3"},
+            "jobName": {"S": "5-Person Flagging Operation"},
+            "setupTime": {"N": "30"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "defaultListID": {"S": "LIST-4"},
+            "jobName": {"S": "6-Person Flagging Operation"},
+            "setupTime": {"N": "30"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "defaultListID": {"S": "LIST-5"},
+            "jobName": {"S": "Left Lane Closure Undivided Highway"},
+            "setupTime": {"N": "30"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "defaultListID": {"S": "LIST-6"},
+            "jobName": {"S": "Left Lane Closure Divided Highway"},
+            "setupTime": {"N": "30"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "defaultListID": {"S": "LIST-7"},
+            "jobName": {"S": "Double Left Lane Closure Undivided Highway"},
+            "setupTime": {"N": "30"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "defaultListID": {"S": "LIST-8"},
+            "jobName": {"S": "Double Left Lane Closure Divided Highway"},
+            "setupTime": {"N": "30"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "defaultListID": {"S": "LIST-9"},
+            "jobName": {"S": "Right Lane Closure Undivided Highway"},
+            "setupTime": {"N": "30"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "defaultListID": {"S": "LIST-10"},
+            "jobName": {"S": "Right Lane Closure Divided Highway"},
+            "setupTime": {"N": "30"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "defaultListID": {"S": "LIST-11"},
+            "jobName": {"S": "Double Right Lane Closure Undivided Highway"},
+            "setupTime": {"N": "30"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "defaultListID": {"S": "LIST-12"},
+            "jobName": {"S": "Double Right Lane Closure Divided Highway"},
+            "setupTime": {"N": "30"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "defaultListID": {"S": "LIST-13"},
+            "jobName": {"S": "Left Traffic Shift"},
+            "setupTime": {"N": "30"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "defaultListID": {"S": "LIST-14"},
+            "jobName": {"S": "Right Traffic Shift"},
+            "setupTime": {"N": "30"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "defaultListID": {"S": "LIST-15"},
+            "jobName": {"S": "Shoulder Closure"},
+            "setupTime": {"N": "10"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "defaultListID": {"S": "LIST-16"},
+            "jobName": {"S": "Non-Specific Detour"},
+            "setupTime": {"N": "60"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "defaultListID": {"S": "LIST-17"},
+            "jobName": {"S": "TMA Job"},
+            "setupTime": {"N": "60"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "defaultListID": {"S": "LIST-18"},
+            "jobName": {"S": "Water-Filled Barriers"},
+            "setupTime": {"N": "0"}
+          }
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "RequestItems": {
+    "Quotes-slojuuuyorf2phvzhigvhhdtve-dev": [
+      {
+        "PutRequest": {
+          "Item": {
+            "quoteID": {"S": "QUOTE-1"},
+            "quoteText": {"S": "Motivation is what gets you started. Habit is what keeps you going."},
+            "quoteAttributed": {"S": "Jim Rohn"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "quoteID": {"S": "QUOTE-2"},
+            "quoteText": {"S": "Make each day your masterpiece."},
+            "quoteAttributed": {"S": "John Wooden"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "quoteID": {"S": "QUOTE-3"},
+            "quoteText": {"S": "The best time to plant a tree was 20 years ago. The second best time is now."},
+            "quoteAttributed": {"S": "Chinese Proverb"}
+          }
+        }
+      }
+    ]
+  }
+}

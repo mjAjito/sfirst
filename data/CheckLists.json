@@ -1,0 +1,66 @@
+{
+  "RequestItems": {
+    "CheckLists-slojuuuyorf2phvzhigvhhdtve-dev": [
+      {
+        "PutRequest": {
+          "Item": {
+            "checkListID": {"S": "CLIST-1"},
+            "projectID": {"S": "JOB-1"},
+            "listType": {"S": "TAILGATE"},
+            "taskDescription": {"S": "Review the entire JSA Sheet"},
+            "completedTS": {"S": "2024-04-22T08:01:00Z"},
+            "completedBy": {"S": "EMP-5"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "checkListID": {"S": "CLIST-2"},
+            "projectID": {"S": "JOB-1"},
+            "listType": {"S": "TAILGATE"},
+            "taskDescription": {"S": "Everyone knows their assignment(s)"},
+            "completedTS": {"S": "2024-04-22T08:01:00Z"},
+            "completedBy": {"S": "EMP-5"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "checkListID": {"S": "CLIST-3"},
+            "projectID": {"S": "JOB-1"},
+            "listType": {"S": "TAILGATE"},
+            "taskDescription": {"S": "PPC check complete"},
+            "completedTS": {"S": "2024-04-22T08:01:00Z"},
+            "completedBy": {"S": "EMP-5"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "checkListID": {"S": "CLIST-4"},
+            "projectID": {"S": "JOB-1"},
+            "listType": {"S": "TAILGATE"},
+            "taskDescription": {"S": "Expectations made clear to employees"},
+            "completedTS": {"S": "2024-04-22T08:01:00Z"},
+            "completedBy": {"S": "EMP-5"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "checkListID": {"S": "CLIST-5"},
+            "projectID": {"S": "JOB-1"},
+            "listType": {"S": "TAILGATE"},
+            "taskDescription": {"S": "Everyone aware of escape routes(s)"},
+            "completedTS": {"S": "2024-04-22T08:01:00Z"},
+            "completedBy": {"S": "EMP-5"}
+          }
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,513 @@
+{
+  "RequestItems": {
+    "Employee-slojuuuyorf2phvzhigvhhdtve-dev": [
+      {
+        "PutRequest": {
+          "Item": {
+            "empID": {"S": "EMP-2"},
+            "firstName": {"S": "Anthony"},
+            "middleInitial": {"S": ""},
+            "lastName": {"S": "Ferrara"},
+            "suffix": {"S": ""},
+            "role": {"S": "EMPLOYEE"},
+            "email": {"S": ""},
+            "phone": {"S": "9196323196"},
+            "address1": {"S": "302 Avery Street"},
+            "address2": {"S": ""},
+            "city": {"S": "Garner"},
+            "state": {"S": "NC"},
+            "zip": {"S": "27529"},
+            "photo": {"S": ""},
+            "gender": {"S": "Male"},
+            "active": {"BOOL": true}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "empID": {"S": "EMP-3"},
+            "firstName": {"S": "Curtis"},
+            "middleInitial": {"S": ""},
+            "lastName": {"S": "Ross"},
+            "suffix": {"S": ""},
+            "role": {"S": "EMPLOYEE"},
+            "email": {"S": ""},
+            "phone": {"S": "9198258589"},
+            "address1": {"S": "1205 Moores Creek Dr"},
+            "address2": {"S": ""},
+            "city": {"S": "Knightdale"},
+            "state": {"S": "NC"},
+            "zip": {"S": "27545"},
+            "photo": {"S": ""},
+            "gender": {"S": "Male"},
+            "active": {"BOOL": true}
+          } 
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "empID": {"S": "EMP-4"},
+            "firstName": {"S": "Danny"},
+            "middleInitial": {"S": "W"},
+            "lastName": {"S": "Williams"},
+            "suffix": {"S": ""},
+            "role": {"S": "TEAMLEAD"},
+            "email": {"S": ""},
+            "phone": {"S": "9844001646"},
+            "address1": {"S": "249 Bent Branch Loop #1"},
+            "address2": {"S": ""},
+            "city": {"S": "Clayton"},
+            "state": {"S": "NC"},
+            "zip": {"S": "27527"},
+            "photo": {"S": ""},
+            "gender": {"S": "Male"},
+            "active": {"BOOL": true}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "empID": {"S": "EMP-5"},
+            "firstName": {"S": "Darius"},
+            "middleInitial": {"S": ""},
+            "lastName": {"S": "Lyon"},
+            "suffix": {"S": ""},
+            "role": {"S": "TEAMLEAD"},
+            "email": {"S": ""},
+            "phone": {"S": "9847581795"},
+            "address1": {"S": "5921 S Downs Dr."},
+            "address2": {"S": ""},
+            "city": {"S": "Raleigh"},
+            "state": {"S": "NC"},
+            "zip": {"S": "27603"},
+            "photo": {"S": ""},
+            "gender": {"S": "Male"},
+            "active": {"BOOL": true}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "empID": {"S": "EMP-6"},
+            "firstName": {"S": "Darrell"},
+            "middleInitial": {"S": "J"},
+            "lastName": {"S": "Smith"},
+            "suffix": {"S": ""},
+            "role": {"S": "EMPLOYEE"},
+            "email": {"S": ""},
+            "phone": {"S": "9194925040"},
+            "address1": {"S": "421 Tanner Drive"},
+            "address2": {"S": ""},
+            "city": {"S": "Raleigh"},
+            "state": {"S": "NC"},
+            "zip": {"S": "27610"},
+            "photo": {"S": ""},
+            "gender": {"S": "Male"},
+            "active": {"BOOL": true}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "empID": {"S": "EMP-7"},
+            "firstName": {"S": "Garry"},
+            "middleInitial": {"S": ""},
+            "lastName": {"S": "Smith"},
+            "suffix": {"S": ""},
+            "role": {"S": "EMPLOYEE"},
+            "email": {"S": ""},
+            "phone": {"S": "9196374135"},
+            "address1": {"S": "405 Clover Lane"},
+            "address2": {"S": ""},
+            "city": {"S": "Raleigh"},
+            "state": {"S": "NC"},
+            "zip": {"S": "27604"},
+            "photo": {"S": ""},
+            "gender": {"S": "Male"},
+            "active": {"BOOL": true}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "empID": {"S": "EMP-8"},
+            "firstName": {"S": "Geraldine"},
+            "middleInitial": {"S": "Y"},
+            "lastName": {"S": "Long"},
+            "suffix": {"S": ""},
+            "role": {"S": "EMPLOYEE"},
+            "email": {"S": ""},
+            "phone": {"S": "9195257208"},
+            "address1": {"S": "241 Allen Grove Court"},
+            "address2": {"S": "Unit 201"},
+            "city": {"S": "Raleigh"},
+            "state": {"S": "NC"},
+            "zip": {"S": "2727610545"},
+            "photo": {"S": ""},
+            "gender": {"S": "Female"},
+            "active": {"BOOL": true}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "empID": {"S": "EMP-9"},
+            "firstName": {"S": "Jahcobi"},
+            "middleInitial": {"S": ""},
+            "lastName": {"S": "Smith"},
+            "suffix": {"S": ""},
+            "role": {"S": "EMPLOYEE"},
+            "email": {"S": ""},
+            "phone": {"S": "9194134502"},
+            "address1": {"S": "3021 Frinks Street"},
+            "address2": {"S": ""},
+            "city": {"S": "Raleigh"},
+            "state": {"S": "NC"},
+            "zip": {"S": "27610"},
+            "photo": {"S": ""},
+            "gender": {"S": "Male"},
+            "active": {"BOOL": true}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "empID": {"S": "EMP-10"},
+            "firstName": {"S": "James"},
+            "middleInitial": {"S": "T"},
+            "lastName": {"S": "Yeargan"},
+            "suffix": {"S": ""},
+            "role": {"S": "EMPLOYEE"},
+            "email": {"S": ""},
+            "phone": {"S": ""},
+            "address1": {"S": "1019 Lawndale St."},
+            "address2": {"S": ""},
+            "city": {"S": "Garner"},
+            "state": {"S": "NC"},
+            "zip": {"S": "27529"},
+            "photo": {"S": ""},
+            "gender": {"S": "Male"},
+            "active": {"BOOL": true}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "empID": {"S": "EMP-11"},
+            "firstName": {"S": "Jared"},
+            "middleInitial": {"S": ""},
+            "lastName": {"S": "Hicks"},
+            "suffix": {"S": ""},
+            "role": {"S": "EMPLOYEE"},
+            "email": {"S": ""},
+            "phone": {"S": "9195380280"},
+            "address1": {"S": "158 Louisburg Farms Rd."},
+            "address2": {"S": ""},
+            "city": {"S": "Louisburg"},
+            "state": {"S": "NC"},
+            "zip": {"S": "27549"},
+            "photo": {"S": ""},
+            "gender": {"S": "Male"},
+            "active": {"BOOL": true}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "empID": {"S": "EMP-12"},
+            "firstName": {"S": "Kendall"},
+            "middleInitial": {"S": ""},
+            "lastName": {"S": "Jiles"},
+            "suffix": {"S": ""},
+            "role": {"S": "EMPLOYEE"},
+            "email": {"S": ""},
+            "phone": {"S": "9842688797"},
+            "address1": {"S": "4304 St James Church Rd"},
+            "address2": {"S": "Apt G"},
+            "city": {"S": "Raleigh"},
+            "state": {"S": "NC"},
+            "zip": {"S": "27604"},
+            "photo": {"S": ""},
+            "gender": {"S": "Male"},
+            "active": {"BOOL": true}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "empID": {"S": "EMP-13"},
+            "firstName": {"S": "Kenneth"},
+            "middleInitial": {"S": "G"},
+            "lastName": {"S": "Blaize"},
+            "suffix": {"S": ""},
+            "role": {"S": "TEAMLEAD"},
+            "email": {"S": ""},
+            "phone": {"S": "9198224582"},
+            "address1": {"S": "3201 Melrose Club Blvd"},
+            "address2": {"S": "Apt. 912"},
+            "city": {"S": "Raleigh"},
+            "state": {"S": "NC"},
+            "zip": {"S": "27603-6050"},
+            "photo": {"S": ""},
+            "gender": {"S": "Male"},
+            "active": {"BOOL": true}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "empID": {"S": "EMP-14"},
+            "firstName": {"S": "Madison"},
+            "middleInitial": {"S": "R"},
+            "lastName": {"S": "Kennovin"},
+            "suffix": {"S": ""},
+            "role": {"S": "EMPLOYEE"},
+            "email": {"S": ""},
+            "phone": {"S": "9194224429"},
+            "address1": {"S": "3811 Cobb Street"},
+            "address2": {"S": ""},
+            "city": {"S": "Garner"},
+            "state": {"S": "NC"},
+            "zip": {"S": "27529"},
+            "photo": {"S": ""},
+            "gender": {"S": "Female"},
+            "active": {"BOOL": true}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "empID": {"S": "EMP-15"},
+            "firstName": {"S": "Melvin"},
+            "middleInitial": {"S": "D"},
+            "lastName": {"S": "Leak"},
+            "suffix": {"S": ""},
+            "role": {"S": "TEAMLEAD"},
+            "email": {"S": ""},
+            "phone": {"S": "2525727664"},
+            "address1": {"S": "200 N Discovry Street"},
+            "address2": {"S": ""},
+            "city": {"S": "Rocky Mount"},
+            "state": {"S": "NC"},
+            "zip": {"S": "27801-5697"},
+            "photo": {"S": ""},
+            "gender": {"S": "Male"},
+            "active": {"BOOL": true}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "empID": {"S": "EMP-16"},
+            "firstName": {"S": "Nashyme"},
+            "middleInitial": {"S": ""},
+            "lastName": {"S": "Hardy"},
+            "suffix": {"S": ""},
+            "role": {"S": "EMPLOYEE"},
+            "email": {"S": ""},
+            "phone": {"S": "9192749272"},
+            "address1": {"S": "4725 Queen Pierrette St"},
+            "address2": {"S": ""},
+            "city": {"S": "Raleigh"},
+            "state": {"S": "NC"},
+            "zip": {"S": "27610"},
+            "photo": {"S": ""},
+            "gender": {"S": "Male"},
+            "active": {"BOOL": true}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "empID": {"S": "EMP-17"},
+            "firstName": {"S": "Olen"},
+            "middleInitial": {"S": "J"},
+            "lastName": {"S": "Weaver"},
+            "suffix": {"S": "Jr."},
+            "role": {"S": "TEAMLEAD"},
+            "email": {"S": ""},
+            "phone": {"S": "6366733389"},
+            "address1": {"S": "910 Vandora Ave"},
+            "address2": {"S": ""},
+            "city": {"S": "Garner"},
+            "state": {"S": "NC"},
+            "zip": {"S": "27529"},
+            "photo": {"S": ""},
+            "gender": {"S": "Male"},
+            "active": {"BOOL": true}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "empID": {"S": "EMP-18"},
+            "firstName": {"S": "Quandisia"},
+            "middleInitial": {"S": ""},
+            "lastName": {"S": "Penny"},
+            "suffix": {"S": ""},
+            "role": {"S": "EMPLOYEE"},
+            "email": {"S": ""},
+            "phone": {"S": "9196108329"},
+            "address1": {"S": "101 Creech Rd."},
+            "address2": {"S": ""},
+            "city": {"S": "Garner"},
+            "state": {"S": "NC"},
+            "zip": {"S": "27529"},
+            "photo": {"S": ""},
+            "gender": {"S": "Female"},
+            "active": {"BOOL": true}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "empID": {"S": "EMP-19"},
+            "firstName": {"S": "Samantha"},
+            "middleInitial": {"S": "R"},
+            "lastName": {"S": "Wallace"},
+            "suffix": {"S": ""},
+            "role": {"S": "EMPLOYEE"},
+            "email": {"S": ""},
+            "phone": {"S": "9126675969"},
+            "address1": {"S": "1113 Hawks Nest Circle"},
+            "address2": {"S": ""},
+            "city": {"S": "Smithfield"},
+            "state": {"S": "NC"},
+            "zip": {"S": "27577"},
+            "photo": {"S": ""},
+            "gender": {"S": "Female"},
+            "active": {"BOOL": true}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "empID": {"S": "EMP-20"},
+            "firstName": {"S": "Shjaihi"},
+            "middleInitial": {"S": ""},
+            "lastName": {"S": "Williams"},
+            "suffix": {"S": ""},
+            "role": {"S": "EMPLOYEE"},
+            "email": {"S": ""},
+            "phone": {"S": "9193979111"},
+            "address1": {"S": "2820 Donevan Pl."},
+            "address2": {"S": ""},
+            "city": {"S": "Raleigh"},
+            "state": {"S": "NC"},
+            "zip": {"S": "27610"},
+            "photo": {"S": ""},
+            "gender": {"S": "Male"},
+            "active": {"BOOL": true}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "empID": {"S": "EMP-21"},
+            "firstName": {"S": "Tiana"},
+            "middleInitial": {"S": "M"},
+            "lastName": {"S": "Turner"},
+            "suffix": {"S": ""},
+            "role": {"S": "EMPLOYEE"},
+            "email": {"S": ""},
+            "phone": {"S": "9197616062"},
+            "address1": {"S": "2121 Blackwolf Run Lane"},
+            "address2": {"S": ""},
+            "city": {"S": "Raleigh"},
+            "state": {"S": "NC"},
+            "zip": {"S": "27604"},
+            "photo": {"S": ""},
+            "gender": {"S": "Female"},
+            "active": {"BOOL": true}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "empID": {"S": "EMP-22"},
+            "firstName": {"S": "Tony"},
+            "middleInitial": {"S": "E"},
+            "lastName": {"S": "Ricks"},
+            "suffix": {"S": ""},
+            "role": {"S": "EMPLOYEE"},
+            "email": {"S": ""},
+            "phone": {"S": "9842969553"},
+            "address1": {"S": "1111-102 Summer King Court"},
+            "address2": {"S": ""},
+            "city": {"S": "Raleigh"},
+            "state": {"S": "NC"},
+            "zip": {"S": "27610"},
+            "photo": {"S": ""},
+            "gender": {"S": "Male"},
+            "active": {"BOOL": true}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "empID": {"S": "EMP-23"},
+            "firstName": {"S": "Travis"},
+            "middleInitial": {"S": ""},
+            "lastName": {"S": "McLean"},
+            "suffix": {"S": ""},
+            "role": {"S": "TEAMLEAD"},
+            "email": {"S": ""},
+            "phone": {"S": "9194412797"},
+            "address1": {"S": "2504 Brookville Dr."},
+            "address2": {"S": "Unit - A"},
+            "state": {"S": "NC"},
+            "city": {"S": "Greenville"},
+            "zip": {"S": "27834"},
+            "photo": {"S": ""},
+            "gender": {"S": "Male"},
+            "active": {"BOOL": true}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "empID": {"S": "EMP-24"},
+            "firstName": {"S": "Zacchaeus"},
+            "middleInitial": {"S": ""},
+            "lastName": {"S": "Williams"},
+            "suffix": {"S": ""},
+            "role": {"S": "TEAMLEAD"},
+            "email": {"S": ""},
+            "phone": {"S": "9197919774"},
+            "address1": {"S": "748 Greenfield Drive"},
+            "address2": {"S": ""},
+            "state": {"S": "NC"},
+            "city": {"S": "Garner"},
+            "zip": {"S": "27529"},
+            "photo": {"S": ""},
+            "gender": {"S": "Male"},
+            "active": {"BOOL": true}
+          }
+        }
+      }
+    ]
+  }
+}
+

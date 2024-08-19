@@ -1,0 +1,281 @@
+{
+  "RequestItems": {
+    "DefaultEquipment-slojuuuyorf2phvzhigvhhdtve-dev": [
+      {
+        "PutRequest": {
+          "Item": {
+            "listID": {"S": "LIST-4"},
+            "equipmentID": {"S": "EQUIP-1"},
+            "description": {"S": "Be Prepared to Stop - 48x48"},
+            "totalRequired": {"N": "5"},
+            "defaultEquipID": {"S": "DEquip-22"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "listID": {"S": "LIST-4"},
+            "equipmentID": {"S": "EQUIP-2"},
+            "description": {"S": "One Lane Road Ahead - 48x48"},
+            "totalRequired": {"N": "5"},
+            "defaultEquipID": {"S": "DEquip-23"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "listID": {"S": "LIST-4"},
+            "equipmentID": {"S": "EQUIP-3"},
+            "description": {"S": "Flagger Symbol - 48x48"},
+            "totalRequired": {"N": "5"},
+            "defaultEquipID": {"S": "DEquip-24"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "listID": {"S": "LIST-4"},
+            "equipmentID": {"S": "EQUIP-4"},
+            "description": {"S": "Stop/Slow Paddles"},
+            "totalRequired": {"N": "5"},
+            "defaultEquipID": {"S": "DEquip-25"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "listID": {"S": "LIST-4"},
+            "equipmentID": {"S": "EQUIP-5"},
+            "description": {"S": "Compact Stands"},
+            "totalRequired": {"N": "15"},
+            "defaultEquipID": {"S": "DEquip-26"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "listID": {"S": "LIST-4"},
+            "equipmentID": {"S": "EQUIP-6"},
+            "description": {"S": "36 Inch Cones"},
+            "totalRequired": {"N": "75"},
+            "defaultEquipID": {"S": "DEquip-27"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "listID": {"S": "LIST-4"},
+            "equipmentID": {"S": "EQUIP-14"},
+            "description": {"S": "2-Way Radios"},
+            "totalRequired": {"N": "6"},
+            "defaultEquipID": {"S": "DEquip-28"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "listID": {"S": "LIST-5"},
+            "equipmentID": {"S": "EQUIP-7"},
+            "description": {"S": "Left Lane Closed Ahead - 48x48"},
+            "totalRequired": {"N": "1"},
+            "defaultEquipID": {"S": "DEquip-29"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "listID": {"S": "LIST-5"},
+            "equipmentID": {"S": "EQUIP-8"},
+            "description": {"S": "Left Lane Reduction - 48x48"},
+            "totalRequired": {"N": "1"},
+            "defaultEquipID": {"S": "DEquip-30"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "listID": {"S": "LIST-5"},
+            "equipmentID": {"S": "EQUIP-9"},
+            "description": {"S": "Left Lane Closed - 48x48"},
+            "totalRequired": {"N": "1"},
+            "defaultEquipID": {"S": "DEquip-31"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "listID": {"S": "LIST-5"},
+            "equipmentID": {"S": "EQUIP-5"},
+            "description": {"S": "Compact Stands"},
+            "totalRequired": {"N": "3"},
+            "defaultEquipID": {"S": "DEquip-32"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "listID": {"S": "LIST-5"},
+            "equipmentID": {"S": "EQUIP-10"},
+            "description": {"S": "Arrow Board"},
+            "totalRequired": {"N": "1"},
+            "defaultEquipID": {"S": "DEquip-33"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "listID": {"S": "LIST-5"},
+            "equipmentID": {"S": "EQUIP-6"},
+            "description": {"S": "36 Inch Cones"},
+            "totalRequired": {"N": "75"},
+            "defaultEquipID": {"S": "DEquip-34"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "listID": {"S": "LIST-6"},
+            "equipmentID": {"S": "EQUIP-7"},
+            "description": {"S": "Left Lane Closed Ahead - 48x48"},
+            "totalRequired": {"N": "2"},
+            "defaultEquipID": {"S": "DEquip-35"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "listID": {"S": "LIST-6"},
+            "equipmentID": {"S": "EQUIP-8"},
+            "description": {"S": "Left Lane Reduction - 48x48"},
+            "totalRequired": {"N": "2"},
+            "defaultEquipID": {"S": "DEquip-36"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "listID": {"S": "LIST-6"},
+            "equipmentID": {"S": "EQUIP-9"},
+            "description": {"S": "Left Lane Closed - 48x48"},
+            "totalRequired": {"N": "2"},
+            "defaultEquipID": {"S": "DEquip-37"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "listID": {"S": "LIST-6"},
+            "equipmentID": {"S": "EQUIP-5"},
+            "description": {"S": "Compact Stands"},
+            "totalRequired": {"N": "6"},
+            "defaultEquipID": {"S": "DEquip-38"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "listID": {"S": "LIST-6"},
+            "equipmentID": {"S": "EQUIP-10"},
+            "description": {"S": "Arrow Board"},
+            "totalRequired": {"N": "1"},
+            "defaultEquipID": {"S": "DEquip-39"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "listID": {"S": "LIST-6"},
+            "equipmentID": {"S": "EQUIP-6"},
+            "description": {"S": "36 Inch Cones"},
+            "totalRequired": {"N": "75"},
+            "defaultEquipID": {"S": "DEquip-40"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "listID": {"S": "LIST-7"},
+            "equipmentID": {"S": "EQUIP-7"},
+            "description": {"S": "Left Lane Closed Ahead - 48x48"},
+            "totalRequired": {"N": "1"},
+            "defaultEquipID": {"S": "DEquip-41"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "listID": {"S": "LIST-7"},
+            "equipmentID": {"S": "EQUIP-8"},
+            "description": {"S": "Left Lane Reduction - 48x48"},
+            "totalRequired": {"N": "1"},
+            "defaultEquipID": {"S": "DEquip-42"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "listID": {"S": "LIST-7"},
+            "equipmentID": {"S": "EQUIP-9"},
+            "description": {"S": "Left Lane Closed - 48x48"},
+            "totalRequired": {"N": "1"},
+            "defaultEquipID": {"S": "DEquip-43"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "listID": {"S": "LIST-7"},
+            "equipmentID": {"S": "EQUIP-5"},
+            "description": {"S": "Compact Stands"},
+            "totalRequired": {"N": "3"},
+            "defaultEquipID": {"S": "DEquip-44"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "listID": {"S": "LIST-7"},
+            "equipmentID": {"S": "EQUIP-10"},
+            "description": {"S": "Arrow Board"},
+            "totalRequired": {"N": "2"},
+            "defaultEquipID": {"S": "DEquip-45"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "listID": {"S": "LIST-7"},
+            "equipmentID": {"S": "EQUIP-6"},
+            "description": {"S": "36 Inch Cones"},
+            "totalRequired": {"N": "90"},
+            "defaultEquipID": {"S": "DEquip-46"}
+          }
+        }
+      }
+    ]
+  }
+}

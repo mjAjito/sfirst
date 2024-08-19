@@ -1,0 +1,32 @@
+{
+  "RequestItems": {
+    "PreTripCheckList-slojuuuyorf2phvzhigvhhdtve-dev": [
+      {
+        "PutRequest": {
+          "Item": {
+            "preCheckListID": {"S": "PreCLIST-1"},
+            "projectID": {"S": "JOB-1"},
+            "truckNum": {"S": "Truck1"},
+            "registrationAvailable": {"BOOL": true},
+            "registrationExpDate": {"S": "2024-09-01"},
+            "stickerOnPlate": {"BOOL": true},
+            "insuranceCard": {"BOOL": true},
+            "insuranceExpDate": {"S": "2024-09-01"},
+            "oilLevel": {"S": "NORMAL"},
+            "oilLife": {"N": "50"},
+            "coolantLevel": {"S": "NORMAL"},
+            "transmissionLevel": {"S": "NORMAL"},
+            "wiperBlades": {"S": "GOOD"},
+            "lights": {"S": "REPLACE"},
+            "lightReplacement": {"S": "Front left turn signal"},
+            "tires": {"S": "GOOD"},
+            "tireReplacement": {"S": ""},
+            "bodyCondition": {"S": ""},
+            "completedTS": {"S": "2024-05-22T07:30:00Z"},
+            "completedBy": {"S": "EMP-5"}
+          }
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,261 @@
+# This "input" configures a global authorization rule to enable public access to
+# all models in this schema. Learn more about authorization rules here: https://docs.amplify.aws/cli/graphql/authorization-rules
+
+type Employee @model @auth(rules: [{allow: private}]) {
+  empID: ID! @primaryKey
+  firstName: String!
+  middleInitial: String
+  lastName: String!
+  suffix: String
+  role: Role!
+  email: AWSEmail!
+  phone: AWSPhone!
+  address1: String!
+  address2: String
+  city: String!
+  state: String!
+  zip: String!
+  photo: String
+  gender: String
+  active: Boolean!
+}
+enum Role {
+  ADMIN
+  TEAMLEAD
+  EMPLOYEE
+}
+type Equipment @model @auth(rules: [{allow: private}]) {
+  equipID: ID! @primaryKey
+  serialNumber: String
+  description: String!
+  location: String
+  equipPhoto: String
+  totalNumber: Int!
+  rentalRateDay: Float!
+  rentalRateWeek: Float!
+  rentalRateMonth: Float!
+  purchasePrice: Float!
+  availableNumber: Int!
+}
+  
+type Customer @model @auth(rules: [{allow: private}]) {
+  customerID: ID! @primaryKey
+  companyName: String!
+  contactFirstName: String!
+  contactLastName: String!
+  email: AWSEmail!
+  phone: AWSPhone!
+  address1: String!
+  address2: String
+  city: String!
+  state: String!
+  zip: Int
+}  
+type Project @model @auth(rules: [{allow: private}]) {
+  projectID: ID! @primaryKey
+  jobName: String!
+  companyName: String!
+  description: String!
+  jobDate: AWSDate!
+  address1: String!
+  address2: String
+  city: String!
+  state: String!
+  zip: String!
+  teamLead: ID!
+  trafficControlDiagram: String!
+  jobType: JobType!
+  jobLatitude: Float!
+  jobLongitude: Float!
+  expectedSetupTime: Float!
+  jobSetupComplete: AWSDateTime
+  jobStage: JobStage!
+  jobPercentComplete: Int!
+  teamLeftHQ: AWSDateTime
+  teamArrivedAtSite: AWSDateTime
+  teamArrivedAtOffice: AWSDateTime
+  projectTeam: [ProjectTeam!]! @hasMany # FKs not supported yet(indexName: "byProjectTeam")
+  equipmentList: [EquipmentList!]! @hasMany # FKs not supported yet(indexName: "byEquipmentList")
+  jobSitePics: [JobSitePics!]! @hasMany # FKs not supported yet(indexName: "byJobSitePics")
+  teamLeadSurvey: [TeamLeadSurvey!]! @hasMany # FKs not supported yet(indexName: "byTeamLeadSurvey")
+  preTripChecklist: [PreTripCheckList!]! @hasMany # FKs not supported yet(indexName: "byCheckList")
+  checklists: [CheckLists!]! @hasMany # FKs not supported yet(indexName: "byCheckList")
+  hourlyCheckins: [HourlyCheckins!]! @hasMany # FKs not supported yet(indexName: "byHourlyCheckin")
+  contract: [Contract!]! @hasMany # FKs not supported yet(indexName: "byContract")
+}
+enum JobType {
+  THREE_PERSON_FLAGGING
+  FOUR_PERSON_FLAGGING 
+  FIVE_PERSON_FLAGGING
+  SIX_PERSON_FLAGGING
+  LEFT_LANE_CLOSURE_UNDIVIDED
+  LEFT_LANE_CLOSURE_DIVIDED
+  DOUBLE_LEFT_LANE_CLOSURE_UNDIVIDED
+  DOUBLE_LEFT_LANE_CLOSURE_DIVIDED
+  RIGHT_LANE_CLOSURE_UNDIVIDED
+  RIGHT_LANE_CLOSURE_DIVIDED
+  DOUBLE_RIGHT_LANE_CLOSURE_UNDIVIDED
+  DOUBLE_RIGHT_LANE_CLOSURE_DIVIDED
+  LEFT_TRAFFIC_SHIFT
+  RIGHT_TRAFFIC_SHIFT
+  SHOULDER_CLOSURE
+  NON_SPECIFIC_DETOUR
+  TMA_JOBS
+  WATER_FILLED_BARRELS
+}
+
+enum JobStage {
+  PLANNED
+  INPROGRESS
+  COMPLETE
+}
+type ProjectTeam @model @auth(rules: [{allow: private}]) {
+  teamMemberID: ID! @primaryKey
+  projectID: ID! # FK not supported  @foreignKey(fields: ["projectID"], referenceFields: ["projectID"], type: PROJECT)
+  empID: ID!
+  name: String!
+  project: Project @belongsTo
+}
+type EquipmentList @model @auth(rules: [{allow: private}]) {
+  equipListID: ID! @primaryKey
+  projectID: ID! # FK not supported  @foreignKey(fields: ["projectID"], referenceFields: ["projectID"], type: PROJECT)
+  equipID: ID!  
+  description: String!
+  quantity: Int!
+  project: Project @belongsTo
+}
+type PreTripCheckList @model @auth(rules: [{allow: private}]) {
+  preCheckListID: ID! @primaryKey
+  projectID: ID! # FK not supported  @foreignKey(fields: ["projectID"], referenceFields: ["projectID"], type: PROJECT)
+  truckNum: String!
+  registrationAvailable: Boolean!
+  registrationExpDate: AWSDate!
+  stickerOnPlate: Boolean!
+  insuranceCard: Boolean!
+  insuranceExpDate: AWSDate!
+  oilLevel: FluidLevel!
+  oilLife: Int!
+  coolantLevel: FluidLevel!
+  transmissionLevel: FluidLevel!
+  wiperBlades: CompCondition! 
+  lights: CompCondition!
+  lightReplacement: String
+  tires: CompCondition!
+  tireReplacement: String
+  bodyCondition: String
+  completedTS: AWSDateTime!
+  completedBy: ID!
+  project: Project @belongsTo
+}
+
+enum FluidLevel {
+  LOW
+  NORMAL
+  OVER
+}
+
+enum CompCondition {
+  GOOD
+  REPLACE
+}
+
+type CheckLists @model @auth(rules: [{allow: private}]) {
+  checkListID: ID! @primaryKey
+  projectID: ID! # FK not supported  @foreignKey(fields: ["projectID"], referenceFields: ["projectID"], type: PROJECT)
+  listType: ListType!
+  taskDescription: String!
+  completedTS: AWSDateTime!
+  completedBy: ID!
+  project: Project @belongsTo
+}
+enum ListType {
+  TAILGATE
+  TEARDOWN
+}
+type HourlyCheckins @model @auth(rules: [{allow: private}]) {
+  checkinID: ID! @primaryKey
+  projectID: ID! # FK not supported  @foreignKey(fields: ["projectID"], referenceFields: ["projectID"], type: PROJECT)
+  checkinTimeActual: AWSDateTime!
+  equipmentCheck: String!
+  employeeCheck: String!
+  customerCheck: String!
+  project: Project @belongsTo
+}
+type JobSitePics @model @auth(rules: [{allow: private}]) {
+  picID: ID! @primaryKey
+  projectID: ID! # FK not supported  @foreignKey(fields: ["projectID"], referenceFields: ["projectID"], type: PROJECT)
+  picTime: AWSDateTime!
+  picPath: String!
+  picType: PicType!
+  project: Project @belongsTo
+}
+enum PicType {
+  INITIAL
+  CHECKIN
+}
+type TeamLeadSurvey @model @auth(rules: [{allow: private}]) {
+  surveyID: ID! @primaryKey
+  projectID: ID! # FK not supported  @foreignKey(fields: ["projectID"], referenceFields: ["projectID"], type: PROJECT)
+  surveyTime: AWSDateTime!
+  equipDamage: Boolean!
+  equipDamageDesc: String!
+  perfRating: Int!
+  perfRatingDesc: String!
+  training: Boolean!
+  trainingDesc: String!
+  officeNotification: Boolean!
+  officeNotificationDesc: String
+  project: Project @belongsTo
+}
+type Contract @model @auth(rules: [{allow: private}]) {
+  contractID: ID! @primaryKey
+  projectID: ID! # FK not supported @foreignKey(fields: ["projectID"], referenceFields: ["projectID"], type: PROJECT)
+  signedTime: AWSDateTime!
+  lastUpdateTime: AWSDateTime!
+  office: String
+  taxCode: String
+  minimumBilling: Float
+  sAndE: String
+  workOrder: Int
+  callerName: String!
+  cod: Boolean!
+  charge: String!
+  poNumber: String
+  serviceDate: AWSDateTime!
+  project: Project @belongsTo
+  leasedItems: [LeasedItems!]! @hasMany # FKs not supported yet (indexName: "byLeasedItems")
+}
+type LeasedItems @model @auth(rules: [{allow: private}]) {
+  itemID: ID! @primaryKey
+  contractID: ID! # FK not supported  @foreignKey(fields: ["contractID"], referenceFields: ["contractID"], type: CONTRACT)
+  equipmentID: ID!
+  count: Int!
+  description: String!
+  prevBalance: Float!
+  newBalance: Float!
+  unitRate: Float!
+  rentalTime: Int!
+  lesseeAgent: String!
+  lessorAgent: String!
+  customerEmail: String!
+  equipmentLocation: String!
+  contract: Contract @belongsTo
+}
+type Quotes @model @auth(rules: [{allow: private}]) {
+  quoteID: ID! @primaryKey
+  quoteText: String!
+  quoteAttributed: String!
+}
+type DefaultEquipmentLists @model @auth(rules: [{allow: private}]) {
+  defaultListID: ID! @primaryKey
+  jobName: String!
+  setupTime: Int
+  defaultEquipment: [DefaultEquipment!]! @hasMany
+}
+type DefaultEquipment @model @auth(rules: [{allow: private}]) {
+  defaultEquipID: ID! @primaryKey
+  listID: ID!
+  equipmentID: ID!
+  description: String!
+  totalRequired: Int!
+}

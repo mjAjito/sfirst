@@ -1,0 +1,459 @@
+{
+  "RequestItems": {
+    "Equipment-slojuuuyorf2phvzhigvhhdtve-dev": [  {
+        "PutRequest": {
+          "Item": {
+            "equipID": {"S": "EQUIP-1"},
+            "serialNumber": {"S": "11111"},
+            "description": {"S": "Be Prepared to Stop - 48x48"},
+            "location": {"S": "Main"},
+            "equipPhoto": {"S": "https://mjdynamo.s3.us-east-2.amazonaws.com/2003Cobra.jpeg"},
+            "totalNumber": {"N": "50"},
+            "rentalRateDay": {"N": "12.00"},
+            "rentalRateWeek": {"N": "34.00"},
+            "rentalRateMonth": {"N": "100.00"},
+            "purchasePrice": {"N": "150.00"},
+            "availableNumber": {"N": "50"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "equipID": {"S": "EQUIP-2"},
+            "serialNumber": {"S": "11111"},
+            "description": {"S": "One Lane Road Ahead - 48x48"},
+            "location": {"S": "Main"},
+            "equipPhoto": {
+              "S": "https://mjdynamo.s3.us-east-2.amazonaws.com/2003Cobra.jpeg"
+            },
+            "totalNumber": {"N": "50"},
+            "rentalRateDay": {"N": "12.00"},
+            "rentalRateWeek": {"N": "34.00"},
+            "rentalRateMonth": {"N": "100.00"},
+            "purchasePrice": {"N": "150.00"},
+            "availableNumber": {"N": "50"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "equipID": {"S": "EQUIP-3"},
+            "serialNumber": {"S": "11111"},
+            "description": {"S": "Flagger Symbol - 48x48"},
+            "location": {"S": "Main"},
+            "equipPhoto": {
+              "S": "https://mjdynamo.s3.us-east-2.amazonaws.com/2003Cobra.jpeg"
+            },
+            "totalNumber": {"N": "50"},
+            "rentalRateDay": {"N": "12.00"},
+            "rentalRateWeek": {"N": "34.00"},
+            "rentalRateMonth": {"N": "100.00"},
+            "purchasePrice": {"N": "150.00"},
+            "availableNumber": {"N": "50"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "equipID": {"S": "EQUIP-4"},
+            "serialNumber": {"S": "11111"},
+            "description": {"S": "Stop/Slow Paddles"},
+            "location": {"S": "Main"},
+            "equipPhoto": {
+              "S": "https://mjdynamo.s3.us-east-2.amazonaws.com/2003Cobra.jpeg"
+            },
+            "totalNumber": {"N": "10"},
+            "rentalRateDay": {"N": "9.00"},
+            "rentalRateWeek": {"N": "25.00"},
+            "rentalRateMonth": {"N": "73.00"},
+            "purchasePrice": {"N": "109.00"},
+            "availableNumber": {"N": "10"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "equipID": {"S": "EQUIP-5"},
+            "serialNumber": {"S": "11111"},
+            "description": {"S": "Compact Stands"},
+            "location": {"S": "Main"},
+            "equipPhoto": {
+              "S": "https://mjdynamo.s3.us-east-2.amazonaws.com/2003Cobra.jpeg"
+            },
+            "totalNumber": {"N": "100"},
+            "rentalRateDay": {"N": "14.00"},
+            "rentalRateWeek": {"N": "42.00"},
+            "rentalRateMonth": {"N": "124.00"},
+            "purchasePrice": {"N": "185.00"},
+            "availableNumber": {"N": "100"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "equipID": {"S": "EQUIP-6"},
+            "serialNumber": {"S": "11111"},
+            "description": {"S": "36 Inch Cones"},
+            "location": {"S": "Main"},
+            "equipPhoto": {
+              "S": "https://mjdynamo.s3.us-east-2.amazonaws.com/2003Cobra.jpeg"
+            },
+            "totalNumber": {"N": "500"},
+            "rentalRateDay": {"N": "3.00"},
+            "rentalRateWeek": {"N": "8.00"},
+            "rentalRateMonth": {"N": "24.00"},
+            "purchasePrice": {"N": "30.00"},
+            "availableNumber": {"N": "500"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "equipID": {"S": "EQUIP-7"},
+            "serialNumber": {"S": "11111"},
+            "description": {"S": "Left Lane Closed Ahead - 48x48"},
+            "location": {"S": "Main"},
+            "equipPhoto": {
+              "S": "https://mjdynamo.s3.us-east-2.amazonaws.com/2003Cobra.jpeg"
+            },
+            "totalNumber": {"N": "20"},
+            "rentalRateDay": {"N": "12.00"},
+            "rentalRateWeek": {"N": "34.00"},
+            "rentalRateMonth": {"N": "100.00"},
+            "purchasePrice": {"N": "150.00"},
+            "availableNumber": {"N": "20"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "equipID": {"S": "EQUIP-8"},
+            "serialNumber": {"S": "11111"},
+            "description": {"S": "Left Lane Reduction - 48x48"},
+            "location": {"S": "Main"},
+            "equipPhoto": {
+              "S": "https://mjdynamo.s3.us-east-2.amazonaws.com/2003Cobra.jpeg"
+            },
+            "totalNumber": {"N": "20"},
+            "rentalRateDay": {"N": "12.00"},
+            "rentalRateWeek": {"N": "34.00"},
+            "rentalRateMonth": {"N": "100.00"},
+            "purchasePrice": {"N": "150.00"},
+            "availableNumber": {"N": "20"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "equipID": {"S": "EQUIP-9"},
+            "serialNumber": {"S": "11111"},
+            "description": {"S": "Left Lane Closed - 48x48"},
+            "location": {"S": "Main"},
+            "equipPhoto": {
+              "S": "https://mjdynamo.s3.us-east-2.amazonaws.com/2003Cobra.jpeg"
+            },
+            "totalNumber": {"N": "20"},
+            "rentalRateDay": {"N": "12.00"},
+            "rentalRateWeek": {"N": "34.00"},
+            "rentalRateMonth": {"N": "100.00"},
+            "purchasePrice": {"N": "150.00"},
+            "availableNumber": {"N": "20"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "equipID": {"S": "EQUIP-10"},
+            "serialNumber": {"S": "11111"},
+            "description": {"S": "Arrow Board"},
+            "location": {"S": "Main"},
+            "equipPhoto": {
+              "S": "https://mjdynamo.s3.us-east-2.amazonaws.com/2003Cobra.jpeg"
+            },
+            "totalNumber": {"N": "15"},
+            "rentalRateDay": {"N": "100.00"},
+            "rentalRateWeek": {"N": "225.00"},
+            "rentalRateMonth": {"N": "550.00"},
+            "purchasePrice": {"N": "4000.00"},
+            "availableNumber": {"N": "15"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "equipID": {"S": "EQUIP-11"},
+            "serialNumber": {"S": "11111"},
+            "description": {"S": "Right Lane Closed Ahead - 48x48"},
+            "location": {"S": "Main"},
+            "equipPhoto": {
+              "S": "https://mjdynamo.s3.us-east-2.amazonaws.com/2003Cobra.jpeg"
+            },
+            "totalNumber": {"N": "20"},
+            "rentalRateDay": {"N": "12.00"},
+            "rentalRateWeek": {"N": "34.00"},
+            "rentalRateMonth": {"N": "100.00"},
+            "purchasePrice": {"N": "150.00"},
+            "availableNumber": {"N": "20"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "equipID": {"S": "EQUIP-12"},
+            "serialNumber": {"S": "11111"},
+            "description": {"S": "Right Lane Reduction - 48x48"},
+            "location": {"S": "Main"},
+            "equipPhoto": {
+              "S": "https://mjdynamo.s3.us-east-2.amazonaws.com/2003Cobra.jpeg"
+            },
+            "totalNumber": {"N": "20"},
+            "rentalRateDay": {"N": "12.00"},
+            "rentalRateWeek": {"N": "34.00"},
+            "rentalRateMonth": {"N": "100.00"},
+            "purchasePrice": {"N": "150.00"},
+            "availableNumber": {"N": "20"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "equipID": {"S": "EQUIP-13"},
+            "serialNumber": {"S": "11111"},
+            "description": {"S": "Right Lane Closed - 48x48"},
+            "location": {"S": "Main"},
+            "equipPhoto": {
+              "S": "https://mjdynamo.s3.us-east-2.amazonaws.com/2003Cobra.jpeg"
+            },
+            "totalNumber": {"N": "20"},
+            "rentalRateDay": {"N": "12.00"},
+            "rentalRateWeek": {"N": "34.00"},
+            "rentalRateMonth": {"N": "100.00"},
+            "purchasePrice": {"N": "150.00"},
+            "availableNumber": {"N": "20"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "equipID": {"S": "EQUIP-14"},
+            "serialNumber": {"S": "11111"},
+            "description": {"S": "2-Way Radios"},
+            "location": {"S": "Main"},
+            "equipPhoto": {
+              "S": "https://mjdynamo.s3.us-east-2.amazonaws.com/2003Cobra.jpeg"
+            },
+            "totalNumber": {"N": "20"},
+            "rentalRateDay": {"N": "9999.00"},
+            "rentalRateWeek": {"N": "9999.00"},
+            "rentalRateMonth": {"N": "9999.00"},
+            "purchasePrice": {"N": "9999.00"},
+            "availableNumber": {"N": "20"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "equipID": {"S": "EQUIP-15"},
+            "serialNumber": {"S": "11111"},
+            "description": {"S": "Traffic Shift - 48x48"},
+            "location": {"S": "Main"},
+            "equipPhoto": {
+              "S": "https://mjdynamo.s3.us-east-2.amazonaws.com/2003Cobra.jpeg"
+            },
+            "totalNumber": {"N": "20"},
+            "rentalRateDay": {"N": "12.00"},
+            "rentalRateWeek": {"N": "34.00"},
+            "rentalRateMonth": {"N": "100.00"},
+            "purchasePrice": {"N": "150.00"},
+            "availableNumber": {"N": "20"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "equipID": {"S": "EQUIP-16"},
+            "serialNumber": {"S": "11111"},
+            "description": {"S": "Right Double Reverse Curve - 48x48"},
+            "location": {"S": "Main"},
+            "equipPhoto": {
+              "S": "https://mjdynamo.s3.us-east-2.amazonaws.com/2003Cobra.jpeg"
+            },
+            "totalNumber": {"N": "20"},
+            "rentalRateDay": {"N": "12.00"},
+            "rentalRateWeek": {"N": "34.00"},
+            "rentalRateMonth": {"N": "100.00"},
+            "purchasePrice": {"N": "150.00"},
+            "availableNumber": {"N": "20"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "equipID": {"S": "EQUIP-17"},
+            "serialNumber": {"S": "11111"},
+            "description": {"S": "Center Lane Closed Ahead - 48x48"},
+            "location": {"S": "Main"},
+            "equipPhoto": {
+              "S": "https://mjdynamo.s3.us-east-2.amazonaws.com/2003Cobra.jpeg"
+            },
+            "totalNumber": {"N": "20"},
+            "rentalRateDay": {"N": "12.00"},
+            "rentalRateWeek": {"N": "34.00"},
+            "rentalRateMonth": {"N": "100.00"},
+            "purchasePrice": {"N": "150.00"},
+            "availableNumber": {"N": "20"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "equipID": {"S": "EQUIP-18"},
+            "serialNumber": {"S": "11111"},
+            "description": {"S": "No Left Turn - 48x48"},
+            "location": {"S": "Main"},
+            "equipPhoto": {
+              "S": "https://mjdynamo.s3.us-east-2.amazonaws.com/2003Cobra.jpeg"
+            },
+            "totalNumber": {"N": "20"},
+            "rentalRateDay": {"N": "12.00"},
+            "rentalRateWeek": {"N": "34.00"},
+            "rentalRateMonth": {"N": "100.00"},
+            "purchasePrice": {"N": "150.00"},
+            "availableNumber": {"N": "20"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "equipID": {"S": "EQUIP-19"},
+            "serialNumber": {"S": "11111"},
+            "description": {"S": "No Right Turn - 48x48"},
+            "location": {"S": "Main"},
+            "equipPhoto": {
+              "S": "https://mjdynamo.s3.us-east-2.amazonaws.com/2003Cobra.jpeg"
+            },
+            "totalNumber": {"N": "20"},
+            "rentalRateDay": {"N": "12.00"},
+            "rentalRateWeek": {"N": "34.00"},
+            "rentalRateMonth": {"N": "100.00"},
+            "purchasePrice": {"N": "150.00"},
+            "availableNumber": {"N": "20"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "equipID": {"S": "EQUIP-20"},
+            "serialNumber": {"S": "11111"},
+            "description": {"S": "Medium Stands"},
+            "location": {"S": "Main"},
+            "equipPhoto": {
+              "S": "https://mjdynamo.s3.us-east-2.amazonaws.com/2003Cobra.jpeg"
+            },
+            "totalNumber": {"N": "20"},
+            "rentalRateDay": {"N": "19.00"},
+            "rentalRateWeek": {"N": "56.00"},
+            "rentalRateMonth": {"N": "166.00"},
+            "purchasePrice": {"N": "249.00"},
+            "availableNumber": {"N": "20"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "equipID": {"S": "EQUIP-21"},
+            "serialNumber": {"S": "11111"},
+            "description": {"S": "Left Double Reverse Curve - 48x48"},
+            "location": {"S": "Main"},
+            "equipPhoto": {
+              "S": "https://mjdynamo.s3.us-east-2.amazonaws.com/2003Cobra.jpeg"
+            },
+            "totalNumber": {"N": "20"},
+            "rentalRateDay": {"N": "12.00"},
+            "rentalRateWeek": {"N": "34.00"},
+            "rentalRateMonth": {"N": "100.00"},
+            "purchasePrice": {"N": "150.00"},
+            "availableNumber": {"N": "20"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "equipID": {"S": "EQUIP-22"},
+            "serialNumber": {"S": "11111"},
+            "description": {"S": "Detour Ahead - 48x48"},
+            "location": {"S": "Main"},
+            "equipPhoto": {
+              "S": "https://mjdynamo.s3.us-east-2.amazonaws.com/2003Cobra.jpeg"
+            },
+            "totalNumber": {"N": "20"},
+            "rentalRateDay": {"N": "12.00"},
+            "rentalRateWeek": {"N": "34.00"},
+            "rentalRateMonth": {"N": "100.00"},
+            "purchasePrice": {"N": "150.00"},
+            "availableNumber": {"N": "20"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "equipID": {"S": "EQUIP-23"},
+            "serialNumber": {"S": "11111"},
+            "description": {"S": "Road Closed - 48x48"},
+            "location": {"S": "Main"},
+            "equipPhoto": {
+              "S": "https://mjdynamo.s3.us-east-2.amazonaws.com/2003Cobra.jpeg"
+            },
+            "totalNumber": {"N": "50"},
+            "rentalRateDay": {"N": "12.00"},
+            "rentalRateWeek": {"N": "34.00"},
+            "rentalRateMonth": {"N": "100.00"},
+            "purchasePrice": {"N": "150.00"},
+            "availableNumber": {"N": "50"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "equipID": {"S": "EQUIP-24"},
+            "serialNumber": {"S": "11111"},
+            "description": {"S": "Detour Arrow - 30x24"},
+            "location": {"S": "Main"},
+            "equipPhoto": {
+              "S": "https://mjdynamo.s3.us-east-2.amazonaws.com/2003Cobra.jpeg"
+            },
+            "totalNumber": {"N": "50"},
+            "rentalRateDay": {"N": "5.00"},
+            "rentalRateWeek": {"N": "15.00"},
+            "rentalRateMonth": {"N": "43.00"},
+            "purchasePrice": {"N": "65.00"},
+            "availableNumber": {"N": "50"}
+          }
+        }
+      }
+    ]
+  }
+}

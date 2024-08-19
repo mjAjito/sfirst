@@ -1,0 +1,86 @@
+{
+  "RequestItems": {
+    "ProjectTeam-slojuuuyorf2phvzhigvhhdtve-dev": [
+      {
+        "PutRequest": {
+          "Item": {
+            "teamMemberID": {"S": "TMEMBER-1"},
+            "projectID": {"S": "JOB-1"},
+            "empID": {"S": "EMP-2"},
+            "name": {"S": "Anthony Ferrara"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "teamMemberID": {"S": "TMEMBER-2"},
+            "projectID": {"S": "JOB-1"},
+            "empID": {"S": "EMP-4"},
+            "name": {"S": "Danny Williams"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "teamMemberID": {"S": "TMEMBER-3"},
+            "projectID": {"S": "JOB-1"},
+            "empID": {"S": "EMP-5"},
+            "name": {"S": "Darius Lyon"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "teamMemberID": {"S": "TMEMBER-4"},
+            "projectID": {"S": "JOB-2"},
+            "empID": {"S": "EMP-3"},
+            "name": {"S": "Curtis Ross"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "teamMemberID": {"S": "TMEMBER-5"},
+            "projectID": {"S": "JOB-2"},
+            "empID": {"S": "EMP-6"},
+            "name": {"S": "Darrell Smith"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "teamMemberID": {"S": "TMEMBER-6"},
+            "projectID": {"S": "JOB-2"},
+            "empID": {"S": "EMP-7"},
+            "name": {"S": "Garry Smith"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "teamMemberID": {"S": "TMEMBER-7"},
+            "projectID": {"S": "JOB-2"},
+            "empID": {"S": "EMP-8"},
+            "name": {"S": "Geraldine Long"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "teamMemberID": {"S": "TMEMBER-8"},
+            "projectID": {"S": "JOB-2"},
+            "empID": {"S": "EMP-9"},
+            "name": {"S": "Jahcobi Smith"}
+          }
+        }
+      }
+    ]
+  }
+}

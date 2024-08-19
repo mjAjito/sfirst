@@ -1,0 +1,248 @@
+{
+  "RequestItems": {
+    "DefaultEquipment-slojuuuyorf2phvzhigvhhdtve-dev": [
+      {
+        "PutRequest": {
+          "Item": {
+            "listID": {"S": "LIST-12"},
+            "equipmentID": {"S": "EQUIP-12"},
+            "description": {"S": "Right Lane Reduction - 48x48"},
+            "totalRequired": {"N": "2"},
+            "defaultEquipID": {"S": "DEquip-71"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "listID": {"S": "LIST-12"},
+            "equipmentID": {"S": "EQUIP-13"},
+            "description": {"S": "Right Lane Closed - 48x48"},
+            "totalRequired": {"N": "2"},
+            "defaultEquipID": {"S": "DEquip-72"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "listID": {"S": "LIST-12"},
+            "equipmentID": {"S": "EQUIP-5"},
+            "description": {"S": "Compact Stands"},
+            "totalRequired": {"N": "6"},
+            "defaultEquipID": {"S": "DEquip-73"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "listID": {"S": "LIST-12"},
+            "equipmentID": {"S": "EQUIP-6"},
+            "description": {"S": "36 Inch Cones"},
+            "totalRequired": {"N": "90"},
+            "defaultEquipID": {"S": "DEquip-74"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "listID": {"S": "LIST-12"},
+            "equipmentID": {"S": "EQUIP-10"},
+            "description": {"S": "Arrow Board"},
+            "totalRequired": {"N": "2"},
+            "defaultEquipID": {"S": "DEquip-75"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "listID": {"S": "LIST-13"},
+            "equipmentID": {"S": "EQUIP-15"},
+            "description": {"S": "Traffic Shift - 48x48"},
+            "totalRequired": {"N": "1"},
+            "defaultEquipID": {"S": "DEquip-76"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "listID": {"S": "LIST-13"},
+            "equipmentID": {"S": "EQUIP-16"},
+            "description": {"S": "Right Double Reverse Curve - 48x48"},
+            "totalRequired": {"N": "1"},
+            "defaultEquipID": {"S": "DEquip-77"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "listID": {"S": "LIST-13"},
+            "equipmentID": {"S": "EQUIP-17"},
+            "description": {"S": "Center Lane Closed Ahead - 48x48"},
+            "totalRequired": {"N": "1"},
+            "defaultEquipID": {"S": "DEquip-78"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "listID": {"S": "LIST-13"},
+            "equipmentID": {"S": "EQUIP-18"},
+            "description": {"S": "No Left Turn - 48x48"},
+            "totalRequired": {"N": "1"},
+            "defaultEquipID": {"S": "DEquip-79"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "listID": {"S": "LIST-13"},
+            "equipmentID": {"S": "EQUIP-19"},
+            "description": {"S": "No Right Turn - 48x48"},
+            "totalRequired": {"N": "1"},
+            "defaultEquipID": {"S": "DEquip-80"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "listID": {"S": "LIST-13"},
+            "equipmentID": {"S": "EQUIP-5"},
+            "description": {"S": "Compact Stands"},
+            "totalRequired": {"N": "3"},
+            "defaultEquipID": {"S": "DEquip-81"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "listID": {"S": "LIST-13"},
+            "equipmentID": {"S": "EQUIP-20"},
+            "description": {"S": "Medium Stands"},
+            "totalRequired": {"N": "1"},
+            "defaultEquipID": {"S": "DEquip-82"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "listID": {"S": "LIST-14"},
+            "equipmentID": {"S": "EQUIP-15"},
+            "description": {"S": "Traffic Shift - 48x48"},
+            "totalRequired": {"N": "1"},
+            "defaultEquipID": {"S": "DEquip-83"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "listID": {"S": "LIST-14"},
+            "equipmentID": {"S": "EQUIP-21"},
+            "description": {"S": "Left Double Reverse Curve - 48x48"},
+            "totalRequired": {"N": "1"},
+            "defaultEquipID": {"S": "DEquip-84"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "listID": {"S": "LIST-14"},
+            "equipmentID": {"S": "EQUIP-17"},
+            "description": {"S": "Center Lane Closed Ahead - 48x48"},
+            "totalRequired": {"N": "1"},
+            "defaultEquipID": {"S": "DEquip-85"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "listID": {"S": "LIST-14"},
+            "equipmentID": {"S": "EQUIP-18"},
+            "description": {"S": "No Left Turn - 48x48"},
+            "totalRequired": {"N": "1"},
+            "defaultEquipID": {"S": "DEquip-86"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "listID": {"S": "LIST-14"},
+            "equipmentID": {"S": "EQUIP-19"},
+            "description": {"S": "No Right Turn - 48x48"},
+            "totalRequired": {"N": "1"},
+            "defaultEquipID": {"S": "DEquip-87"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "listID": {"S": "LIST-14"},
+            "equipmentID": {"S": "EQUIP-5"},
+            "description": {"S": "Compact Stands"},
+            "totalRequired": {"N": "3"},
+            "defaultEquipID": {"S": "DEquip-88"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "listID": {"S": "LIST-14"},
+            "equipmentID": {"S": "EQUIP-20"},
+            "description": {"S": "Medium Stands"},
+            "totalRequired": {"N": "1"},
+            "defaultEquipID": {"S": "DEquip-89"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "listID": {"S": "LIST-15"},
+            "equipmentID": {"S": "EQUIP-31"},
+            "description": {"S": "Shoulder Closed Ahead - 48x48"},
+            "totalRequired": {"N": "1"},
+            "defaultEquipID": {"S": "DEquip-90"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "listID": {"S": "LIST-15"},
+            "equipmentID": {"S": "EQUIP-6"},
+            "description": {"S": "36 Inch Cones"},
+            "totalRequired": {"N": "15"},
+            "defaultEquipID": {"S": "DEquip-91"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "listID": {"S": "LIST-15"},
+            "equipmentID": {"S": "EQUIP-5"},
+            "description": {"S": "Compact Stands"},
+            "totalRequired": {"N": "2"},
+            "defaultEquipID": {"S": "DEquip-92"}
+          }
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,281 @@
+{
+  "RequestItems": {
+    "DefaultEquipment-slojuuuyorf2phvzhigvhhdtve-dev": [
+      {
+        "PutRequest": {
+          "Item": {
+            "listID": {"S": "LIST-16"},
+            "equipmentID": {"S": "EQUIP-22"},
+            "description": {"S": "Detour Ahead - 48x48"},
+            "totalRequired": {"N": "0"},
+            "defaultEquipID": {"S": "DEquip-93"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "listID": {"S": "LIST-16"},
+            "equipmentID": {"S": "EQUIP-23"},
+            "description": {"S": "Road Closed - 48x48"},
+            "totalRequired": {"N": "0"},
+            "defaultEquipID": {"S": "DEquip-94"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "listID": {"S": "LIST-16"},
+            "equipmentID": {"S": "EQUIP-24"},
+            "description": {"S": "Detour Arrow - 30x24"},
+            "totalRequired": {"N": "0"},
+            "defaultEquipID": {"S": "DEquip-95"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "listID": {"S": "LIST-16"},
+            "equipmentID": {"S": "EQUIP-20"},
+            "description": {"S": "Medium Stands"},
+            "totalRequired": {"N": "0"},
+            "defaultEquipID": {"S": "DEquip-96"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "listID": {"S": "LIST-16"},
+            "equipmentID": {"S": "EQUIP-25"},
+            "description": {"S": "Type III Barricades"},
+            "totalRequired": {"N": "0"},
+            "defaultEquipID": {"S": "DEquip-97"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "listID": {"S": "LIST-16"},
+            "equipmentID": {"S": "EQUIP-26"},
+            "description": {"S": "Type II Barricades"},
+            "totalRequired": {"N": "0"},
+            "defaultEquipID": {"S": "DEquip-98"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "listID": {"S": "LIST-16"},
+            "equipmentID": {"S": "EQUIP-27"},
+            "description": {"S": "Road Closed Barricade Signs 48x30"},
+            "totalRequired": {"N": "0"},
+            "defaultEquipID": {"S": "DEquip-99"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "listID": {"S": "LIST-16"},
+            "equipmentID": {"S": "EQUIP-28"},
+            "description": {"S": "Detour Barricade Directional Signs 48x18"},
+            "totalRequired": {"N": "0"},
+            "defaultEquipID": {"S": "DEquip-100"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "listID": {"S": "LIST-17"},
+            "equipmentID": {"S": "EQUIP-29"},
+            "description": {"S": "TMA Vehicle"},
+            "totalRequired": {"N": "1"},
+            "defaultEquipID": {"S": "DEquip-101"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "listID": {"S": "LIST-17"},
+            "equipmentID": {"S": "EQUIP-30"},
+            "description": {"S": "Large Highway Stands"},
+            "totalRequired": {"N": "6"},
+            "defaultEquipID": {"S": "DEquip-102"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "listID": {"S": "LIST-17"},
+            "equipmentID": {"S": "EQUIP-7"},
+            "description": {"S": "Left Lane Closed Ahead - 48x48"},
+            "totalRequired": {"N": "2"},
+            "defaultEquipID": {"S": "DEquip-103"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "listID": {"S": "LIST-17"},
+            "equipmentID": {"S": "EQUIP-8"},
+            "description": {"S": "Left Lane Reduction - 48x48"},
+            "totalRequired": {"N": "2"},
+            "defaultEquipID": {"S": "DEquip-104"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "listID": {"S": "LIST-17"},
+            "equipmentID": {"S": "EQUIP-9"},
+            "description": {"S": "Left Lane Closed - 48x48"},
+            "totalRequired": {"N": "2"},
+            "defaultEquipID": {"S": "DEquip-105"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "listID": {"S": "LIST-17"},
+            "equipmentID": {"S": "EQUIP-31"},
+            "description": {"S": "Shoulder Closed Ahead - 48x48"},
+            "totalRequired": {"N": "1"},
+            "defaultEquipID": {"S": "DEquip-106"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "listID": {"S": "LIST-17"},
+            "equipmentID": {"S": "EQUIP-32"},
+            "description": {"S": "Channelizer Drum"},
+            "totalRequired": {"N": "20"},
+            "defaultEquipID": {"S": "DEquip-107"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "listID": {"S": "LIST-17"},
+            "equipmentID": {"S": "EQUIP-33"},
+            "description": {"S": "42 Inch Skinnys"},
+            "totalRequired": {"N": "30"},
+            "defaultEquipID": {"S": "DEquip-108"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "listID": {"S": "LIST-17"},
+            "equipmentID": {"S": "EQUIP-34"},
+            "description": {"S": "Message Board"},
+            "totalRequired": {"N": "1"},
+            "defaultEquipID": {"S": "DEquip-109"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "listID": {"S": "LIST-17"},
+            "equipmentID": {"S": "EQUIP-10"},
+            "description": {"S": "Arrow Board"},
+            "totalRequired": {"N": "1"},
+            "defaultEquipID": {"S": "DEquip-110"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "listID": {"S": "LIST-18"},
+            "equipmentID": {"S": "EQUIP-35"},
+            "description": {"S": "Water-Filled Barriers"},
+            "totalRequired": {"N": "0"},
+            "defaultEquipID": {"S": "DEquip-111"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "listID": {"S": "LIST-18"},
+            "equipmentID": {"S": "EQUIP-36"},
+            "description": {"S": "Steel Connector Rods"},
+            "totalRequired": {"N": "0"},
+            "defaultEquipID": {"S": "DEquip-112"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "listID": {"S": "LIST-18"},
+            "equipmentID": {"S": "EQUIP-37"},
+            "description": {"S": "Lids"},
+            "totalRequired": {"N": "0"},
+            "defaultEquipID": {"S": "DEquip-113"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "listID": {"S": "LIST-18"},
+            "equipmentID": {"S": "EQUIP-38"},
+            "description": {"S": "Drain Plugs"},
+            "totalRequired": {"N": "0"},
+            "defaultEquipID": {"S": "DEquip-114"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "listID": {"S": "LIST-18"},
+            "equipmentID": {"S": "EQUIP-39"},
+            "description": {"S": "Large Trailer"},
+            "totalRequired": {"N": "0"},
+            "defaultEquipID": {"S": "DEquip-115"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "listID": {"S": "LIST-18"},
+            "equipmentID": {"S": "EQUIP-40"},
+            "description": {"S": "Extra Large Trailer"},
+            "totalRequired": {"N": "0"},
+            "defaultEquipID": {"S": "DEquip-116"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "listID": {"S": "LIST-18"},
+            "equipmentID": {"S": "EQUIP-41"},
+            "description": {"S": "Hoses for Water Bins"},
+            "totalRequired": {"N": "0"},
+            "defaultEquipID": {"S": "DEquip-117"}
+          }
+        }
+      }
+    ]
+  }
+}

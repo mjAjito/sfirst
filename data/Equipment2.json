@@ -1,0 +1,348 @@
+{
+  "RequestItems": {
+    "Equipment-slojuuuyorf2phvzhigvhhdtve-dev": [  
+      {
+        "PutRequest": {
+          "Item": {
+            "equipID": {"S": "EQUIP-25"},
+            "serialNumber": {"S": "11111"},
+            "description": {"S": "Type III Barricades"},
+            "location": {"S": "Main"},
+            "equipPhoto": {
+              "S": "https://mjdynamo.s3.us-east-2.amazonaws.com/2003Cobra.jpeg"
+            },
+            "totalNumber": {"N": "20"},
+            "rentalRateDay": {"N": "15.00"},
+            "rentalRateWeek": {"N": "43.00"},
+            "rentalRateMonth": {"N": "127.00"},
+            "purchasePrice": {"N": "572.00"},
+            "availableNumber": {"N": "20"}
+          }
+        }
+      },
+      {
+      "PutRequest": {
+          "Item": {
+            "equipID": {"S": "EQUIP-99"},
+            "serialNumber": {"S": "11111"},
+            "description": {"S": "Type III Barricade Feet (Set of 2)"},
+            "location": {"S": "Main"},
+            "equipPhoto": {
+              "S": "https://mjdynamo.s3.us-east-2.amazonaws.com/2003Cobra.jpeg"
+            },
+            "totalNumber": {"N": "20"},
+            "rentalRateDay": {"N": "11.00"},
+            "rentalRateWeek": {"N": "33.00"},
+            "rentalRateMonth": {"N": "97.00"},
+            "purchasePrice": {"N": "145.00"},
+            "availableNumber": {"N": "20"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "equipID": {"S": "EQUIP-26"},
+            "serialNumber": {"S": "11111"},
+            "description": {"S": "Type II Barricades"},
+            "location": {"S": "Main"},
+            "equipPhoto": {
+              "S": "https://mjdynamo.s3.us-east-2.amazonaws.com/2003Cobra.jpeg"
+            },
+            "totalNumber": {"N": "20"},
+            "rentalRateDay": {"N": "25.00"},
+            "rentalRateWeek": {"N": "38.00"},
+            "rentalRateMonth": {"N": "75.00"},
+            "purchasePrice": {"N": "114.00"},
+            "availableNumber": {"N": "20"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "equipID": {"S": "EQUIP-27"},
+            "serialNumber": {"S": "11111"},
+            "description": {"S": "Road Closed Barricade Signs 48x30"},
+            "location": {"S": "Main"},
+            "equipPhoto": {
+              "S": "https://mjdynamo.s3.us-east-2.amazonaws.com/2003Cobra.jpeg"
+            },
+            "totalNumber": {"N": "20"},
+            "rentalRateDay": {"N": "8.00"},
+            "rentalRateWeek": {"N": "24.00"},
+            "rentalRateMonth": {"N": "70.00"},
+            "purchasePrice": {"N": "105.00"},
+            "availableNumber": {"N": "20"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "equipID": {"S": "EQUIP-28"},
+            "serialNumber": {"S": "11111"},
+            "description": {"S": "Detour Barricade Directional Signs 48x18"},
+            "location": {"S": "Main"},
+            "equipPhoto": {
+              "S": "https://mjdynamo.s3.us-east-2.amazonaws.com/2003Cobra.jpeg"
+            },
+            "totalNumber": {"N": "20"},
+            "rentalRateDay": {"N": "6.00"},
+            "rentalRateWeek": {"N": "18.00"},
+            "rentalRateMonth": {"N": "52.00"},
+            "purchasePrice": {"N": "78.00"},
+            "availableNumber": {"N": "20"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "equipID": {"S": "EQUIP-29"},
+            "serialNumber": {"S": "11111"},
+            "description": {"S": "TMA Vehicle"},
+            "location": {"S": "Main"},
+            "equipPhoto": {
+              "S": "https://mjdynamo.s3.us-east-2.amazonaws.com/2003Cobra.jpeg"
+            },
+            "totalNumber": {"N": "5"},
+            "rentalRateDay": {"N": "550.00"},
+            "rentalRateWeek": {"N": "1500.00"},
+            "rentalRateMonth": {"N": "4500.00"},
+            "purchasePrice": {"N": "9999.00"},
+            "availableNumber": {"N": "5"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "equipID": {"S": "EQUIP-30"},
+            "serialNumber": {"S": "11111"},
+            "description": {"S": "Large Highway Stands"},
+            "location": {"S": "Main"},
+            "equipPhoto": {
+              "S": "https://mjdynamo.s3.us-east-2.amazonaws.com/2003Cobra.jpeg"
+            },
+            "totalNumber": {"N": "20"},
+            "rentalRateDay": {"N": "28.00"},
+            "rentalRateWeek": {"N": "84.00"},
+            "rentalRateMonth": {"N": "252.00"},
+            "purchasePrice": {"N": "378.00"},
+            "availableNumber": {"N": "20"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "equipID": {"S": "EQUIP-31"},
+            "serialNumber": {"S": "11111"},
+            "description": {"S": "Shoulder Closed Ahead - 48x48"},
+            "location": {"S": "Main"},
+            "equipPhoto": {
+              "S": "https://mjdynamo.s3.us-east-2.amazonaws.com/2003Cobra.jpeg"
+            },
+            "totalNumber": {"N": "50"},
+            "rentalRateDay": {"N": "12.00"},
+            "rentalRateWeek": {"N": "34.00"},
+            "rentalRateMonth": {"N": "100.00"},
+            "purchasePrice": {"N": "150.00"},
+            "availableNumber": {"N": "50"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "equipID": {"S": "EQUIP-32"},
+            "serialNumber": {"S": "11111"},
+            "description": {"S": "Channelizer Drum"},
+            "location": {"S": "Main"},
+            "equipPhoto": {
+              "S": "https://mjdynamo.s3.us-east-2.amazonaws.com/2003Cobra.jpeg"
+            },
+            "totalNumber": {"N": "200"},
+            "rentalRateDay": {"N": "7.00"},
+            "rentalRateWeek": {"N": "19.00"},
+            "rentalRateMonth": {"N": "56.00"},
+            "purchasePrice": {"N": "83.00"},
+            "availableNumber": {"N": "200"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "equipID": {"S": "EQUIP-33"},
+            "serialNumber": {"S": "11111"},
+            "description": {"S": "42 Inch Skinnys"},
+            "location": {"S": "Main"},
+            "equipPhoto": {
+              "S": "https://mjdynamo.s3.us-east-2.amazonaws.com/2003Cobra.jpeg"
+            },
+            "totalNumber": {"N": "500"},
+            "rentalRateDay": {"N": "4.00"},
+            "rentalRateWeek": {"N": "12.00"},
+            "rentalRateMonth": {"N": "35.00"},
+            "purchasePrice": {"N": "53.00"},
+            "availableNumber": {"N": "500"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "equipID": {"S": "EQUIP-34"},
+            "serialNumber": {"S": "11111"},
+            "description": {"S": "Message Board"},
+            "location": {"S": "Main"},
+            "equipPhoto": {
+              "S": "https://mjdynamo.s3.us-east-2.amazonaws.com/2003Cobra.jpeg"
+            },
+            "totalNumber": {"N": "30"},
+            "rentalRateDay": {"N": "200.00"},
+            "rentalRateWeek": {"N": "500.00"},
+            "rentalRateMonth": {"N": "1500.00"},
+            "purchasePrice": {"N": "18000.00"},
+            "availableNumber": {"N": "30"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "equipID": {"S": "EQUIP-35"},
+            "serialNumber": {"S": "11111"},
+            "description": {"S": "Water-Filled Barriers"},
+            "location": {"S": "Main"},
+            "equipPhoto": {
+              "S": "https://mjdynamo.s3.us-east-2.amazonaws.com/2003Cobra.jpeg"
+            },
+            "totalNumber": {"N": "500"},
+            "rentalRateDay": {"N": "16.00"},
+            "rentalRateWeek": {"N": "46.00"},
+            "rentalRateMonth": {"N": "138.00"},
+            "purchasePrice": {"N": "621.00"},
+            "availableNumber": {"N": "500"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "equipID": {"S": "EQUIP-36"},
+            "serialNumber": {"S": "11111"},
+            "description": {"S": "Steel Connector Rods"},
+            "location": {"S": "Main"},
+            "equipPhoto": {
+              "S": "https://mjdynamo.s3.us-east-2.amazonaws.com/2003Cobra.jpeg"
+            },
+            "totalNumber": {"N": "2000"},
+            "rentalRateDay": {"N": "9999.00"},
+            "rentalRateWeek": {"N": "9999.00"},
+            "rentalRateMonth": {"N": "9999.00"},
+            "purchasePrice": {"N": "9999.00"},
+            "availableNumber": {"N": "2000"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "equipID": {"S": "EQUIP-37"},
+            "serialNumber": {"S": "11111"},
+            "description": {"S": "Lids"},
+            "location": {"S": "Main"},
+            "equipPhoto": {
+              "S": "https://mjdynamo.s3.us-east-2.amazonaws.com/2003Cobra.jpeg"
+            },
+            "totalNumber": {"N": "200"},
+            "rentalRateDay": {"N": "9999.00"},
+            "rentalRateWeek": {"N": "9999.00"},
+            "rentalRateMonth": {"N": "9999.00"},
+            "purchasePrice": {"N": "9999.00"},
+            "availableNumber": {"N": "200"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "equipID": {"S": "EQUIP-38"},
+            "serialNumber": {"S": "11111"},
+            "description": {"S": "Drain Plugs"},
+            "location": {"S": "Main"},
+            "equipPhoto": {
+              "S": "https://mjdynamo.s3.us-east-2.amazonaws.com/2003Cobra.jpeg"
+            },
+            "totalNumber": {"N": "200"},
+            "rentalRateDay": {"N": "9999.00"},
+            "rentalRateWeek": {"N": "9999.00"},
+            "rentalRateMonth": {"N": "9999.00"},
+            "purchasePrice": {"N": "9999.00"},
+            "availableNumber": {"N": "200"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "equipID": {"S": "EQUIP-39"},
+            "serialNumber": {"S": "11111"},
+            "description": {"S": "Large Trailer"},
+            "location": {"S": "Main"},
+            "equipPhoto": {
+              "S": "https://mjdynamo.s3.us-east-2.amazonaws.com/2003Cobra.jpeg"
+            },
+            "totalNumber": {"N": "5"},
+            "rentalRateDay": {"N": "9999.00"},
+            "rentalRateWeek": {"N": "9999.00"},
+            "rentalRateMonth": {"N": "9999.00"},
+            "purchasePrice": {"N": "9999.00"},
+            "availableNumber": {"N": "5"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "equipID": {"S": "EQUIP-40"},
+            "serialNumber": {"S": "11111"},
+            "description": {"S": "Extra Large Trailer"},
+            "location": {"S": "Main"},
+            "equipPhoto": {
+              "S": "https://mjdynamo.s3.us-east-2.amazonaws.com/2003Cobra.jpeg"
+            },
+            "totalNumber": {"N": "5"},
+            "rentalRateDay": {"N": "9999.00"},
+            "rentalRateWeek": {"N": "9999.00"},
+            "rentalRateMonth": {"N": "9999.00"},
+            "purchasePrice": {"N": "9999.00"},
+            "availableNumber": {"N": "5"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "equipID": {"S": "EQUIP-41"},
+            "serialNumber": {"S": "11111"},
+            "description": {"S": "Hoses for Water Bins"},
+            "location": {"S": "Main"},
+            "equipPhoto": {
+              "S": "https://mjdynamo.s3.us-east-2.amazonaws.com/2003Cobra.jpeg"
+            },
+            "totalNumber": {"N": "100"},
+            "rentalRateDay": {"N": "9999.00"},
+            "rentalRateWeek": {"N": "9999.00"},
+            "rentalRateMonth": {"N": "9999.00"},
+            "purchasePrice": {"N": "9999.00"},
+            "availableNumber": {"N": "10"}
+          }
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "RequestItems": {
+    "JobSitePics-slojuuuyorf2phvzhigvhhdtve-dev": [
+      {
+        "PutRequest": {
+          "Item": {
+            "picID": {"S": "PIC-1"},
+            "projectID": {"S": "JOB-1"},
+            "picTime": {"S": "2024-04-22T08:45:00Z"},
+            "picPath": {"S": "https://mjdynamo.s3.us-east-2.amazonaws.com/2003Cobra.jpeg"},
+            "picType": {"S": "INITIAL"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "picID": {"S": "PIC-2"},
+            "projectID": {"S": "JOB-1"},
+            "picTime": {"S": "2024-04-22T10:15:00Z"},
+            "picPath": {"S": "https://mjdynamo.s3.us-east-2.amazonaws.com/2003Cobra.jpeg"},
+            "picType": {"S": "CHECKIN"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "picID": {"S": "PIC-3"},
+            "projectID": {"S": "JOB-1"},
+            "picTime": {"S": "2024-04-22T11:15:00Z"},
+            "picPath": {"S": "https://mjdynamo.s3.us-east-2.amazonaws.com/2003Cobra.jpeg"},
+            "picType": {"S": "INITIAL"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "picID": {"S": "PIC-4"},
+            "projectID": {"S": "JOB-1"},
+            "picTime": {"S": "2024-04-22T12:15:00Z"},
+            "picPath": {"S": "https://mjdynamo.s3.us-east-2.amazonaws.com/2003Cobra.jpeg"},
+            "picType": {"S": "CHECKIN"}
+          }
+        }
+      }
+    ]
+  }
+}

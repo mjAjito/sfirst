@@ -1,0 +1,40 @@
+{
+  "RequestItems": {
+    "Customer-slojuuuyorf2phvzhigvhhdtve-dev": [
+      {
+        "PutRequest": {
+          "Item": {
+            "customerID": {"S": "CUST-1"},
+            "companyName": {"S": "City of Raleigh"},
+            "contactFirstName": {"S": "Bob"},
+            "contactLastName": {"S": "Roberts"},
+            "email": {"S": "bob.roberts@cityofraleigh.gov"},
+            "phone": {"S": "9195555557"},
+            "address1": {"S": "789 Industrial Way"},
+            "address2": {"S": "Suite 200"},
+            "city": {"S": "Raleigh"},
+            "state": {"S": "NC"},
+            "zip": {"N": "27512"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "customerID": {"S": "CUST-2"},
+            "companyName": {"S": "Acme Builders"},
+            "contactFirstName": {"S": "Alice"},
+            "contactLastName": {"S": "Williams"},
+            "email": {"S": "alice.williams@acmebuilders.com"},
+            "phone": {"S": "9195555558"},
+            "address1": {"S": "321 Construction Blvd"},
+            "address2": {"S": ""},
+            "city": {"S": "Garner"},
+            "state": {"S": "NC"},
+            "zip": {"N": "27529"}
+          }
+        }
+      }
+    ]
+  }
+}

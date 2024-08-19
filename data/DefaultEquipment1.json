@@ -1,0 +1,237 @@
+{
+  "RequestItems": {
+    "DefaultEquipment-slojuuuyorf2phvzhigvhhdtve-dev": [
+      {
+        "PutRequest": {
+          "Item": {
+            "defaultEquipID": {"S": "DEquip-1"},
+            "listID": {"S": "LIST-1"},
+            "equipmentID": {"S": "EQUIP-1"},
+            "description": {"S": "Be Prepared to Stop - 48x48"},
+            "totalRequired": {"N": "2"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "defaultEquipID": {"S": "DEquip-2"},
+            "listID": {"S": "LIST-1"},
+            "equipmentID": {"S": "EQUIP-2"},
+            "description": {"S": "One Lane Road Ahead - 48x48"},
+            "totalRequired": {"N": "2"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "defaultEquipID": {"S": "DEquip-3"},
+            "listID": {"S": "LIST-1"},
+            "equipmentID": {"S": "EQUIP-3"},
+            "description": {"S": "Flagger Symbol - 48x48"},
+            "totalRequired": {"N": "2"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "defaultEquipID": {"S": "DEquip-4"},
+            "listID": {"S": "LIST-1"},
+            "equipmentID": {"S": "EQUIP-4"},
+            "description": {"S": "Stop/Slow Paddles"},
+            "totalRequired": {"N": "2"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "defaultEquipID": {"S": "DEquip-5"},
+            "listID": {"S": "LIST-1"},
+            "equipmentID": {"S": "EQUIP-5"},
+            "description": {"S": "Compact Stands"},
+            "totalRequired": {"N": "6"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "defaultEquipID": {"S": "DEquip-6"},
+            "listID": {"S": "LIST-1"},
+            "equipmentID": {"S": "EQUIP-6"},
+            "description": {"S": "36 Inch Cones"},
+            "totalRequired": {"N": "75"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "defaultEquipID": {"S": "DEquip-7"},
+            "listID": {"S": "LIST-1"},
+            "equipmentID": {"S": "EQUIP-14"},
+            "description": {"S": "2-Way Radios"},
+            "totalRequired": {"N": "3"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "defaultEquipID": {"S": "DEquip-8"},
+            "listID": {"S": "LIST-2"},
+            "equipmentID": {"S": "EQUIP-1"},
+            "description": {"S": "Be Prepared to Stop - 48x48"},
+            "totalRequired": {"N": "3"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "defaultEquipID": {"S": "DEquip-9"},
+            "listID": {"S": "LIST-2"},
+            "equipmentID": {"S": "EQUIP-2"},
+            "description": {"S": "One Lane Road Ahead - 48x48"},
+            "totalRequired": {"N": "3"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "defaultEquipID": {"S": "DEquip-10"},
+            "listID": {"S": "LIST-2"},
+            "equipmentID": {"S": "EQUIP-3"},
+            "description": {"S": "Flagger Symbol - 48x48"},
+            "totalRequired": {"N": "3"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "defaultEquipID": {"S": "DEquip-11"},
+            "listID": {"S": "LIST-2"},
+            "equipmentID": {"S": "EQUIP-4"},
+            "description": {"S": "Stop/Slow Paddles"},
+            "totalRequired": {"N": "3"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "defaultEquipID": {"S": "DEquip-12"},
+            "listID": {"S": "LIST-2"},
+            "equipmentID": {"S": "EQUIP-5"},
+            "description": {"S": "Compact Stands"},
+            "totalRequired": {"N": "9"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "defaultEquipID": {"S": "DEquip-13"},
+            "listID": {"S": "LIST-2"},
+            "equipmentID": {"S": "EQUIP-6"},
+            "description": {"S": "36 Inch Cones"},
+            "totalRequired": {"N": "75"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "defaultEquipID": {"S": "DEquip-14"},
+            "listID": {"S": "LIST-2"},
+            "equipmentID": {"S": "EQUIP-14"},
+            "description": {"S": "2-Way Radios"},
+            "totalRequired": {"N": "4"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "defaultEquipID": {"S": "DEquip-15"},
+            "listID": {"S": "LIST-3"},
+            "equipmentID": {"S": "EQUIP-1"},
+            "description": {"S": "Be Prepared to Stop - 48x48"},
+            "totalRequired": {"N": "4"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "defaultEquipID": {"S": "DEquip-16"},
+            "listID": {"S": "LIST-3"},
+            "equipmentID": {"S": "EQUIP-2"},
+            "description": {"S": "One Lane Road Ahead - 48x48"},
+            "totalRequired": {"N": "4"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "defaultEquipID": {"S": "DEquip-17"},
+            "listID": {"S": "LIST-3"},
+            "equipmentID": {"S": "EQUIP-3"},
+            "description": {"S": "Flagger Symbol - 48x48"},
+            "totalRequired": {"N": "4"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "defaultEquipID": {"S": "DEquip-18"},
+            "listID": {"S": "LIST-3"},
+            "equipmentID": {"S": "EQUIP-4"},
+            "description": {"S": "Stop/Slow Paddles"},
+            "totalRequired": {"N": "4"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "defaultEquipID": {"S": "DEquip-19"},
+            "listID": {"S": "LIST-3"},
+            "equipmentID": {"S": "EQUIP-5"},
+            "description": {"S": "Compact Stands"},
+            "totalRequired": {"N": "12"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "defaultEquipID": {"S": "DEquip-20"},
+            "listID": {"S": "LIST-3"},
+            "equipmentID": {"S": "EQUIP-6"},
+            "description": {"S": "36 Inch Cones"},
+            "totalRequired": {"N": "75"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "defaultEquipID": {"S": "DEquip-21"},
+            "listID": {"S": "LIST-3"},
+            "equipmentID": {"S": "EQUIP-14"},
+            "description": {"S": "2-Way Radios"},
+            "totalRequired": {"N": "5"}
+          }
+        }
+      }
+    ]
+  }
+}

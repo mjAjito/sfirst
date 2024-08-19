@@ -1,0 +1,215 @@
+{
+  "RequestItems": {
+    "Equipment-slojuuuyorf2phvzhigvhhdtve-dev": [  
+      {
+        "PutRequest": {
+          "Item": {
+            "equipID": {"S": "EQUIP-42"},
+            "serialNumber": {"S": "11111"},
+            "description": {"S": "Barricade Light (solar)"},
+            "location": {"S": "Main"},
+            "equipPhoto": {
+              "S": "https://mjdynamo.s3.us-east-2.amazonaws.com/2003Cobra.jpeg"
+            },
+            "totalNumber": {"N": "50"},
+            "rentalRateDay": {"N": "2.00"},
+            "rentalRateWeek": {"N": "6.00"},
+            "rentalRateMonth": {"N": "16.00"},
+            "purchasePrice": {"N": "24.00"},
+            "availableNumber": {"N": "50"}
+          }
+        }
+      },
+      {
+      "PutRequest": {
+          "Item": {
+            "equipID": {"S": "EQUIP-43"},
+            "serialNumber": {"S": "11111"},
+            "description": {"S": "Small Strobe Lights"},
+            "location": {"S": "Main"},
+            "equipPhoto": {
+              "S": "https://mjdynamo.s3.us-east-2.amazonaws.com/2003Cobra.jpeg"
+            },
+            "totalNumber": {"N": "50"},
+            "rentalRateDay": {"N": "1.00"},
+            "rentalRateWeek": {"N": "2.00"},
+            "rentalRateMonth": {"N": "4.00"},
+            "purchasePrice": {"N": "17.00"},
+            "availableNumber": {"N": "50"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "equipID": {"S": "EQUIP-44"},
+            "serialNumber": {"S": "11111"},
+            "description": {"S": "Hand Flags"},
+            "location": {"S": "Main"},
+            "equipPhoto": {
+              "S": "https://mjdynamo.s3.us-east-2.amazonaws.com/2003Cobra.jpeg"
+            },
+            "totalNumber": {"N": "20"},
+            "rentalRateDay": {"N": "3.00"},
+            "rentalRateWeek": {"N": "9.00"},
+            "rentalRateMonth": {"N": "20.00"},
+            "purchasePrice": {"N": "7.00"},
+            "availableNumber": {"N": "20"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "equipID": {"S": "EQUIP-45"},
+            "serialNumber": {"S": "11111"},
+            "description": {"S": "U-Post"},
+            "location": {"S": "Main"},
+            "equipPhoto": {
+              "S": "https://mjdynamo.s3.us-east-2.amazonaws.com/2003Cobra.jpeg"
+            },
+            "totalNumber": {"N": "20"},
+            "rentalRateDay": {"N": "6.00"},
+            "rentalRateWeek": {"N": "18.00"},
+            "rentalRateMonth": {"N": "52.00"},
+            "purchasePrice": {"N": "78.00"},
+            "availableNumber": {"N": "20"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "equipID": {"S": "EQUIP-46"},
+            "serialNumber": {"S": "11111"},
+            "description": {"S": "U-Anchor"},
+            "location": {"S": "Main"},
+            "equipPhoto": {
+              "S": "https://mjdynamo.s3.us-east-2.amazonaws.com/2003Cobra.jpeg"
+            },
+            "totalNumber": {"N": "20"},
+            "rentalRateDay": {"N": "3.00"},
+            "rentalRateWeek": {"N": "7.00"},
+            "rentalRateMonth": {"N": "19.00"},
+            "purchasePrice": {"N": "28.00"},
+            "availableNumber": {"N": "20"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "equipID": {"S": "EQUIP-47"},
+            "serialNumber": {"S": "11111"},
+            "description": {"S": "Square Post"},
+            "location": {"S": "Main"},
+            "equipPhoto": {
+              "S": "https://mjdynamo.s3.us-east-2.amazonaws.com/2003Cobra.jpeg"
+            },
+            "totalNumber": {"N": "20"},
+            "rentalRateDay": {"N": "8.00"},
+            "rentalRateWeek": {"N": "23.00"},
+            "rentalRateMonth": {"N": "68.00"},
+            "purchasePrice": {"N": "102.00"},
+            "availableNumber": {"N": "20"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "equipID": {"S": "EQUIP-48"},
+            "serialNumber": {"S": "11111"},
+            "description": {"S": "Square Stob"},
+            "location": {"S": "Main"},
+            "equipPhoto": {
+              "S": "https://mjdynamo.s3.us-east-2.amazonaws.com/2003Cobra.jpeg"
+            },
+            "totalNumber": {"N": "20"},
+            "rentalRateDay": {"N": "7.00"},
+            "rentalRateWeek": {"N": "19.00"},
+            "rentalRateMonth": {"N": "55.00"},
+            "purchasePrice": {"N": "83.00"},
+            "availableNumber": {"N": "20"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "equipID": {"S": "EQUIP-49"},
+            "serialNumber": {"S": "11111"},
+            "description": {"S": "Orange Orafol Reflective Sheeting, 8\" x 50 yd. roll"},
+            "location": {"S": "Main"},
+            "equipPhoto": {
+              "S": "https://mjdynamo.s3.us-east-2.amazonaws.com/2003Cobra.jpeg"
+            },
+            "totalNumber": {"N": "50"},
+            "rentalRateDay": {"N": "9999.00"},
+            "rentalRateWeek": {"N": "9999.00"},
+            "rentalRateMonth": {"N": "9999.00"},
+            "purchasePrice": {"N": "299.99"},
+            "availableNumber": {"N": "50"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "equipID": {"S": "EQUIP-50"},
+            "serialNumber": {"S": "11111"},
+            "description": {"S": "White HIP Relective Sheeting (3M), 8\" x 50 yd. roll"},
+            "location": {"S": "Main"},
+            "equipPhoto": {
+              "S": "https://mjdynamo.s3.us-east-2.amazonaws.com/2003Cobra.jpeg"
+            },
+            "totalNumber": {"N": "50"},
+            "rentalRateDay": {"N": "9999.00"},
+            "rentalRateWeek": {"N": "9999.00"},
+            "rentalRateMonth": {"N": "9999.00"},
+            "purchasePrice": {"N": "199.99"},
+            "availableNumber": {"N": "50"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "equipID": {"S": "EQUIP-51"},
+            "serialNumber": {"S": "11111"},
+            "description": {"S": "Sandbags"},
+            "location": {"S": "Main"},
+            "equipPhoto": {
+              "S": "https://mjdynamo.s3.us-east-2.amazonaws.com/2003Cobra.jpeg"
+            },
+            "totalNumber": {"N": "500"},
+            "rentalRateDay": {"N": "9999.00"},
+            "rentalRateWeek": {"N": "9999.00"},
+            "rentalRateMonth": {"N": "9999.00"},
+            "purchasePrice": {"N": "10.00"},
+            "availableNumber": {"N": "500"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "equipID": {"S": "EQUIP-52"},
+            "serialNumber": {"S": "11111"},
+            "description": {"S": "Skinny Bases"},
+            "location": {"S": "Main"},
+            "equipPhoto": {
+              "S": "https://mjdynamo.s3.us-east-2.amazonaws.com/2003Cobra.jpeg"
+            },
+            "totalNumber": {"N": "30"},
+            "rentalRateDay": {"N": "9999.00"},
+            "rentalRateWeek": {"N": "9999.00"},
+            "rentalRateMonth": {"N": "9999.00"},
+            "purchasePrice": {"N": "16.99"},
+            "availableNumber": {"N": "30"}
+          }
+        }
+      }
+    ]
+  }
+}

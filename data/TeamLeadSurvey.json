@@ -1,0 +1,23 @@
+{
+  "RequestItems": {
+    "TeamLeadSurvey-slojuuuyorf2phvzhigvhhdtve-dev": [
+      {
+        "PutRequest": {
+          "Item": {
+            "surveyID": {"S": "SURVEY-1"},
+            "projectID": {"S": "JOB-1"},
+            "surveyTime": {"S": "2024-04-22T17:30:00Z"},
+            "equipDamage": {"BOOL": false},
+            "equipDamageDesc": {"S": ""},
+            "perfRating": {"N": "4"},
+            "perfRatingDesc": {"S": "Crew worked efficiently"},
+            "training": {"BOOL": false},
+            "trainingDesc": {"S": ""},
+            "officeNotification": {"BOOL": true},
+            "officeNotificationDesc": {"S": "Traffic backup reported earlier"}
+          }
+        }
+      }
+    ]
+  }
+}

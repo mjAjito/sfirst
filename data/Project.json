@@ -1,0 +1,64 @@
+{
+  "RequestItems": {
+    "Project-slojuuuyorf2phvzhigvhhdtve-dev": [
+      {
+        "PutRequest": {
+          "Item": {
+            "projectID": {"S": "JOB-1"},
+            "jobName": {"S": "Main Street Repair"},
+            "companyName": {"S": "City of Raleigh"},
+            "description": {
+              "S": "Repaving Main Street from 1st Ave to 5th Ave"
+            },
+            "jobDate": {"S": "2024-04-22"},
+            "address1": {"S": "123 Main St"},
+            "address2": {"S": ""},
+            "city": {"S": "Raleigh"},
+            "state": {"S": "NC"},
+            "zip": {"S": "27612"},
+            "teamLead": {"S": "EMP-5"},
+            "trafficControlDiagram": {"S": ""},
+            "jobType": {"S": "LEFT_LANE_CLOSURE_UNDIVIDED"},
+            "jobLatitude": {"N": "35.777928"},
+            "jobLongitude": {"N": "78.638435"},
+            "expectedSetupTime": {"N": "0.5"},
+            "jobSetupComplete": {"S": "2024-04-22T07:57:00Z"},
+            "jobPercentComplete": {"N": "30"},
+            "teamLeftHQ": {"S": "2024-04-22T07:07:00Z"},
+            "teamArrivedAtSite": {"S": "2024-04-22T07:23:34Z"}, 
+            "teamArrivedAtOffice": {"S": ""},
+            "jobStage": {"S": "STARTED"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "projectID": {"S": "JOB-2"},
+            "jobName": {"S": "New Mall Entrance"},
+            "companyName": {"S": "Acme Builders"},
+            "description": {"S": "Flagging around new Mall entrance"},
+            "jobDate": {"S": "2024-04-30"},
+            "address1": {"S": "555 Oak St."},
+            "address2": {"S": ""},
+            "city": {"S": "Garner"},
+            "state": {"S": "NC"},
+            "zip": {"S": "27529"},
+            "teamLead": {"S": "EMP-3"},
+            "trafficControlDiagram": {"S": ""},
+            "jobType": {"S": "FOUR_PERSON_FLAGGING"},
+            "jobLatitude": {"N": "35.705318"},
+            "jobLongitude": {"N":  "78.620299"},
+            "expectedSetupTime": {"N": "0.5"},
+            "jobSetupComplete": {"S": ""},
+            "jobPercentComplete": {"N": "0"},
+            "teamLeftHQ": {"S": ""},
+            "teamArrivedAtSite": {"S": ""}, 
+            "teamArrivedAtOffice": {"S": ""},
+            "jobStage": {"S": "PLANNED"}
+          }
+        }
+      }
+    ]
+  }
+}
